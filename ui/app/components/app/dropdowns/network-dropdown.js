@@ -282,11 +282,13 @@ class NetworkDropdown extends Component {
         </div>
         {this.renderNetworkEntry('mainnet')}
         {this.renderNetworkEntry('ropsten')}
-        {this.renderNetworkEntry('kovan')}
+        {/* {this.renderNetworkEntry('kovan')}
         {this.renderNetworkEntry('rinkeby')}
-        {this.renderNetworkEntry('goerli')}
+        {this.renderNetworkEntry('goerli')} */}
 
-        {this.renderCustomRpcList(rpcListDetail, this.props.provider)}
+        {/* {this.renderCustomRpcList(rpcListDetail, this.props.provider)} */}
+
+        {/*         
         <DropdownMenuItem
           closeMenu={() => this.props.hideNetworkDropdown()}
           onClick={() => {
@@ -319,7 +321,7 @@ class NetworkDropdown extends Component {
           >
             {this.context.t('customRPC')}
           </span>
-        </DropdownMenuItem>
+        </DropdownMenuItem> */}
       </Dropdown>
     );
   }

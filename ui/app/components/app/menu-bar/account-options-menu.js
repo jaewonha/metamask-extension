@@ -88,7 +88,8 @@ export default function AccountOptionsMenu({ anchorElement, onClose }) {
       >
         {t('accountDetails')}
       </MenuItem>
-      <MenuItem
+
+      {/* <MenuItem
         onClick={() => {
           viewOnEtherscanEvent();
           global.platform.openTab({
@@ -118,6 +119,7 @@ export default function AccountOptionsMenu({ anchorElement, onClose }) {
       >
         {t('connectedSites')}
       </MenuItem>
+       */}
       {isRemovable ? (
         <MenuItem
           data-testid="account-options-menu__remove-account"

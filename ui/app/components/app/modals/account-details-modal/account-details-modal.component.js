@@ -55,8 +55,9 @@ export default class AccountDetailsModal extends Component {
           }}
         />
 
-        <div className="account-details-modal__divider" />
+        {/* <div className="account-details-modal__divider" /> */}
 
+        {/* 
         <Button
           type="secondary"
           className="account-details-modal__button"
@@ -82,6 +83,7 @@ export default class AccountDetailsModal extends Component {
             {this.context.t('exportPrivateKey')}
           </Button>
         ) : null}
+         */}
       </AccountModalContainer>
     );
   }

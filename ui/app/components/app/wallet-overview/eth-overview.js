@@ -113,7 +113,7 @@ const EthOverview = ({ className }) => {
       }
       buttons={
         <>
-          <IconButton
+          {/* <IconButton
             className="eth-overview__button"
             Icon={BuyIcon}
             disabled={!(isMainnetChain || isTestnetChain)}
@@ -122,7 +122,7 @@ const EthOverview = ({ className }) => {
               depositEvent();
               dispatch(showModal({ name: 'DEPOSIT_ETHER' }));
             }}
-          />
+          /> */}
           <IconButton
             className="eth-overview__button"
             data-testid="eth-overview-send"
@@ -133,7 +133,7 @@ const EthOverview = ({ className }) => {
               history.push(SEND_ROUTE);
             }}
           />
-          {swapsEnabled ? (
+          { false && swapsEnabled ? (
             <IconButton
               className="eth-overview__button"
               disabled={!isMainnetChain}
