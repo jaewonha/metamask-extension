@@ -47,7 +47,7 @@
     "message": "계정 추가"
   },
   "addAcquiredTokens": {
-    "message": "MetaMask를 이용해 얻은 토큰 추가"
+    "message": "Medium Wallet을 이용해 얻은 토큰 추가"
   },
   "addAlias": {
     "message": "별칭 추가"
@@ -132,7 +132,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Medium Wallet",
     "description": "The name of the application"
   },
   "approvalAndAggregatorTxFeeCost": {
@@ -176,7 +176,7 @@
     "message": "자동 잠금 타이머(분)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "MetaMask가 잠길 때까지 걸리는 시간을 분 단위로 설정합니다."
+    "message": "Medium Wallet이 잠길 때까지 걸리는 시간을 분 단위로 설정합니다."
   },
   "average": {
     "message": "평균"
@@ -188,7 +188,7 @@
     "message": "전체 목록으로 돌아가기"
   },
   "backupApprovalInfo": {
-    "message": "이 비밀 코드는 장치를 분실하여 지갑을 복구하거나, 암호를 잊거나, MetaMask를 다시 설치해야 하거나, 다른 장치에서 지갑에 액세스해야 할 때 필요합니다."
+    "message": "이 비밀 코드는 장치를 분실하여 지갑을 복구하거나, 암호를 잊거나, Medium Wallet을 다시 설치해야 하거나, 다른 장치에서 지갑에 액세스해야 할 때 필요합니다."
   },
   "backupApprovalNotice": {
     "message": "비밀 복구 코드를 백업하여 지갑과 자금을 안전하게 보호하세요."
@@ -219,7 +219,7 @@
     "message": "지원되지 않는 브라우저입니다..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask는 캘리포니아에서 설계 및 제작됩니다."
+    "message": "Medium Wallet은 한국에서 설계 및 제작됩니다."
   },
   "buy": {
     "message": "구매"
@@ -228,7 +228,7 @@
     "message": "Wyre로 ETH 구매"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre를 사용하면 체크카드를 이용해 ETH를 MetaMask 계정에 바로 예치할 수 있습니다."
+    "message": "Wyre를 사용하면 체크카드를 이용해 ETH를 Medium Wallet 계정에 바로 예치할 수 있습니다."
   },
   "bytes": {
     "message": "바이트"
@@ -246,7 +246,7 @@
     "message": "체인 ID"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "하드웨어 지갑에 연결하려면 Google Chrome에서 MetaMask를 사용해야 합니다."
+    "message": "하드웨어 지갑에 연결하려면 Google Chrome에서 Medium Wallet을 사용해야 합니다."
   },
   "clickToRevealSeed": {
     "message": "암호를 표시하려면 여기를 클릭하세요"
@@ -302,7 +302,7 @@
     "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
   },
   "connectWithMetaMask": {
-    "message": "MetaMask에 연결"
+    "message": "Medium Wallet에 연결"
   },
   "connectedAccountsDescriptionPlural": {
     "message": "이 사이트에 계정 $1개가 연결되어 있습니다.",
@@ -312,7 +312,7 @@
     "message": "이 사이트에 계정 1개가 연결되어 있습니다."
   },
   "connectedAccountsEmptyDescription": {
-    "message": "MetaMask가 이 사이트에 연결되어 있지 않습니다. web3 사이트를 연결하려면 사이트에서 연결 버튼을 찾으세요."
+    "message": "Medium Wallet이 이 사이트에 연결되어 있지 않습니다. web3 사이트를 연결하려면 사이트에서 연결 버튼을 찾으세요."
   },
   "connectedSites": {
     "message": "연결된 사이트"
@@ -422,7 +422,7 @@
     "message": "맞춤형 토큰"
   },
   "dataBackupFoundInfo": {
-    "message": "계정 데이터 일부가 MetaMask 이전 설치 도중에 백업되었습니다. 여기에는 설정, 연락처, 토큰이 포함될 수 있습니다. 지금 이 데이터를 복구하시겠습니까?"
+    "message": "계정 데이터 일부가 Medium Wallet 이전 설치 도중에 백업되었습니다. 여기에는 설정, 연락처, 토큰이 포함될 수 있습니다. 지금 이 데이터를 복구하시겠습니까?"
   },
   "decimal": {
     "message": "정밀도 소수 자릿수"
@@ -548,7 +548,7 @@
     "message": "구문을 누구와도 공유하지 마세요."
   },
   "endOfFlowMessage5": {
-    "message": "피싱을 조심하세요! MetaMask에서는 절대로 시드 구문을 갑자기 물어보지 않습니다."
+    "message": "피싱을 조심하세요! Medium Wallet에서는 절대로 시드 구문을 갑자기 물어보지 않습니다."
   },
   "endOfFlowMessage6": {
     "message": "시드 구문을 다시 백업해야 한다면 설정 -> 보안에서 시드 구문을 찾을 수 있습니다."
@@ -557,7 +557,7 @@
     "message": "질문이 있거나 피싱으로 의심되는 행위를 목격했다면 support@metamask.io로 이메일을 보내세요."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask에서는 시드 구문을 복구할 수 없습니다."
+    "message": "Medium Wallet에서는 시드 구문을 복구할 수 없습니다."
   },
   "endOfFlowMessage9": {
     "message": "자세한 내용을 알아보세요."
@@ -609,7 +609,7 @@
     "description": "Message displayed on generic error page in the popup UI"
   },
   "errorPageTitle": {
-    "message": "MetaMask에서 오류 발생",
+    "message": "Medium Wallet에서 오류 발생",
     "description": "Title of generic error page"
   },
   "errorStack": {
@@ -758,7 +758,7 @@
     "message": "하드웨어 지갑 연결"
   },
   "hardwareWalletsMsg": {
-    "message": "MetaMask와 함께 사용할 하드웨어 지갑 선택"
+    "message": "Medium Wallet과 함께 사용할 하드웨어 지갑 선택"
   },
   "havingTroubleConnecting": {
     "message": "연결에 문제가 있으신가요?"
@@ -791,7 +791,7 @@
     "message": "계정 가져오기"
   },
   "importAccountMsg": {
-    "message": " 가져온 계정은 생성한 MetaMask 계정 시드 구문 원본에 연결되지 않습니다. 가져온 계정에 대해 자세히 알아보세요. "
+    "message": " 가져온 계정은 생성한 Medium Wallet 계정 시드 구문 원본에 연결되지 않습니다. 가져온 계정에 대해 자세히 알아보세요. "
   },
   "importAccountSeedPhrase": {
     "message": "시드 구문으로 계정 가져오기"
@@ -942,7 +942,7 @@
     "message": "메시지"
   },
   "metaMaskConnectStatusParagraphOne": {
-    "message": "MetaMask의 계정 연결에 대한 제어 기능이 강화되었습니다."
+    "message": "Medium Wallet의 계정 연결에 대한 제어 기능이 강화되었습니다."
   },
   "metaMaskConnectStatusParagraphThree": {
     "message": "클릭하여 연결된 계정을 관리하세요."
@@ -951,13 +951,13 @@
     "message": "방문 중인 웹사이트가 현재 선택된 계정에 연결되어 있다면 연결 상태 버튼이 표시됩니다."
   },
   "metamaskDescription": {
-    "message": "이더리움 및 분산형 웹에 연결합니다."
+    "message": "우리가 기다리던 탈 중앙화 웹입니다"
   },
   "metamaskSwapsOfflineDescription": {
-    "message": "MetaMask Swaps가 점검 중입니다. 나중에 다시 확인하세요."
+    "message": "Medium Wallet Swaps가 점검 중입니다. 나중에 다시 확인하세요."
   },
   "metamaskVersion": {
-    "message": "MetaMask 버전"
+    "message": "Medium Wallet 버전"
   },
   "metametricsCommitmentsAllowOptOut": {
     "message": "언제든 설정을 통해 옵트아웃할 수 있습니다."
@@ -967,7 +967,7 @@
     "description": "This string is localized separately from some of the commitments so that we can bold it"
   },
   "metametricsCommitmentsIntro": {
-    "message": "MetaMask에서는.."
+    "message": "Medium Wallet에서는.."
   },
   "metametricsCommitmentsNeverCollectIP": {
     "message": "전체 IP 주소를 $1 수집하지 않습니다.",
@@ -985,10 +985,10 @@
     "message": "익명화된 클릭 및 페이지뷰 이벤트 보내기"
   },
   "metametricsHelpImproveMetaMask": {
-    "message": "MetaMask 개선에 참여"
+    "message": "Medium Wallet 개선에 참여"
   },
   "metametricsOptInDescription": {
-    "message": "MetaMask는 사용자의 확장 사용 방식을 더 잘 이해하기 위해 사용 데이터를 수집하려 합니다. 이 데이터는 제품과 이더리움 생태계의 사용 편의성과 사용자 경험을 지속적으로 개선하는 데 사용됩니다."
+    "message": "Medium Wallet은 사용자의 확장 사용 방식을 더 잘 이해하기 위해 사용 데이터를 수집하려 합니다. 이 데이터는 제품과 이더리움 생태계의 사용 편의성과 사용자 경험을 지속적으로 개선하는 데 사용됩니다."
   },
   "mobileSyncText": {
     "message": "암호를 입력하여 본인임을 확인하세요!"
@@ -1003,10 +1003,10 @@
     "message": "내 지갑 계정"
   },
   "myWalletAccountsDescription": {
-    "message": "MetaMask에서 생성한 모든 계정으로 이 섹션에 자동으로 추가됩니다."
+    "message": "Medium Wallet에서 생성한 모든 계정으로 이 섹션에 자동으로 추가됩니다."
   },
   "needEtherInWallet": {
-    "message": "MetaMask를 이용하는 분산형 애플리케이션과 상호작용하려면 지갑에 Ether가 있어야 합니다."
+    "message": "Medium Wallet을 이용하는 분산형 애플리케이션과 상호작용하려면 지갑에 Ether가 있어야 합니다."
   },
   "needImportFile": {
     "message": "가져올 파일을 선택해야 합니다.",
@@ -1053,7 +1053,7 @@
     "message": "새 암호(8자 이상)"
   },
   "newToMetaMask": {
-    "message": "MetaMask가 처음이세요?"
+    "message": "Medium Wallet이 처음이세요?"
   },
   "newTotal": {
     "message": "새 합계"
@@ -1066,7 +1066,7 @@
   },
   "nextNonceWarning": {
     "message": "임시값이 추천 임시값($1)보다 큼",
-    "description": "The next nonce according to MetaMask's internal logic"
+    "description": "The next nonce according to Medium Wallet's internal logic"
   },
   "noAccountsFound": {
     "message": "검색 쿼리에 맞는 계정 없음"
@@ -1154,7 +1154,7 @@
     "message": "MetaMetrics에 참여"
   },
   "participateInMetaMetricsDescription": {
-    "message": "MetaMetrics에 참여하여 MetaMask 개선에 도움을 주세요."
+    "message": "MetaMetrics에 참여하여 Medium Wallet 개선에 도움을 주세요."
   },
   "password": {
     "message": "암호"
@@ -1217,7 +1217,7 @@
     "message": "키를 보호하세요!"
   },
   "protectYourKeysMessage1": {
-    "message": "시드 구문을 조심하세요. MetaMask를 흉내 내는 웹사이트가 보고되고 있습니다. MetaMask에서는 시드 구문을 절대로 물어보지 않습니다!"
+    "message": "시드 구문을 조심하세요. Medium Wallet을 흉내 내는 웹사이트가 보고되고 있습니다. Medium Wallet에서는 시드 구문을 절대로 물어보지 않습니다!"
   },
   "protectYourKeysMessage2": {
     "message": "시드 구문을 안전하게 보관하세요. 피싱으로 의심되는 행위를 목격했거나 웹사이트가 수상하다면 support@metamask.io로 이메일을 보내세요."
@@ -1401,7 +1401,7 @@
     "message": "계정 선택"
   },
   "selectAnAccountHelp": {
-    "message": "MetaMask에서 확인할 계정 선택"
+    "message": "Medium Wallet에서 확인할 계정 선택"
   },
   "selectEachPhrase": {
     "message": "각 구문을 선택하여 구문이 올바른지 확인하세요."
@@ -1532,7 +1532,7 @@
     "message": "상태 로그를 가져오는 도중 오류가 발생했습니다."
   },
   "stateLogFileName": {
-    "message": "MetaMask 상태 로그"
+    "message": "Medium Wallet 상태 로그"
   },
   "stateLogs": {
     "message": "상태 로그"
@@ -1617,7 +1617,7 @@
     "message": "한도 편집"
   },
   "swapEnableDescription": {
-    "message": "필수이며 MetaMask에게 $1을(를) 스왑할 권한을 제공합니다.",
+    "message": "필수이며 Medium Wallet에게 $1을(를) 스왑할 권한을 제공합니다.",
     "description": "Gives the user info about the required approval transaction for swaps. $1 will be the symbol of a token being approved for swaps."
   },
   "swapEstimatedNetworkFee": {
@@ -1655,13 +1655,13 @@
     "message": "자세한 정보를 확인하고 싶으신가요?"
   },
   "swapIntroLearnMoreLink": {
-    "message": "MetaMask Swaps에 대해 자세히 알아보기"
+    "message": "Medium Wallet Swaps에 대해 자세히 알아보기"
   },
   "swapIntroLiquiditySourcesLabel": {
     "message": "다음을 포함한 유동성 소스:"
   },
   "swapIntroPopupSubTitle": {
-    "message": "이제 MetaMask 지갑에서 토큰을 바로 스왑할 수 있습니다. MetaMask Swaps는 다양한 분산형 교환 애그리게이터, 투자전문기관, 개별 DEX를 결합하여 MetaMask 사용자가 언제든 최저 네트워크 요금으로 최상의 가격을 얻을 수 있게 합니다."
+    "message": "이제 Medium Wallet 지갑에서 토큰을 바로 스왑할 수 있습니다. Medium Wallet Swaps는 다양한 분산형 교환 애그리게이터, 투자전문기관, 개별 DEX를 결합하여 Medium Wallet 사용자가 언제든 최저 네트워크 요금으로 최상의 가격을 얻을 수 있게 합니다."
   },
   "swapIntroPopupTitle": {
     "message": "토큰 스왑은 여기서 진행됩니다!"
@@ -1683,14 +1683,14 @@
     "message": "최대 슬리패지"
   },
   "swapMetaMaskFee": {
-    "message": "MetaMask 요금"
+    "message": "Medium Wallet 요금"
   },
   "swapMetaMaskFeeDescription": {
-    "message": "당사는 매번 최상의 유동성 소스에서 최적 가격을 찾습니다. $1% 요금은 각 견적에 자동으로 반영되어, MetaMask를 더욱 개선하는 현재 진행 중인 개발을 지원합니다.",
+    "message": "당사는 매번 최상의 유동성 소스에서 최적 가격을 찾습니다. $1% 요금은 각 견적에 자동으로 반영되어, Medium Wallet을 더욱 개선하는 현재 진행 중인 개발을 지원합니다.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapNetworkFeeSummary": {
-    "message": "네트워크 요금에는 스왑을 처리하고 이더리움 네트워크에 보관하는 비용이 적용됩니다. MetaMask는 이 요금을 이용해 이득을 얻지 않습니다."
+    "message": "네트워크 요금에는 스왑을 처리하고 이더리움 네트워크에 보관하는 비용이 적용됩니다. Medium Wallet은 이 요금을 이용해 이득을 얻지 않습니다."
   },
   "swapNewQuoteIn": {
     "message": "$1 후에 새 견적",
@@ -1710,7 +1710,7 @@
     "message": "주문 시점과 확인 시점 사이에 가격이 변동되는 현상을 \"슬리패지\"라고 합니다. 슬리패지가 \"최대 슬리패지\" 설정을 초과하면 스왑이 자동으로 취소됩니다."
   },
   "swapQuoteIncludesRate": {
-    "message": "견적에는 $1% MetaMask 요금이 포함됩니다.",
+    "message": "견적에는 $1% Medium Wallet 요금이 포함됩니다.",
     "description": "Provides information about the fee that metamask takes for swaps. $1 is a decimal number."
   },
   "swapQuoteNofN": {
@@ -1845,16 +1845,16 @@
     "message": "이 코드를 스캔할 때는 다른 사람이 화면을 보지 못하게 하세요."
   },
   "syncWithMobileComplete": {
-    "message": "데이터가 동기화되었습니다. MetaMask 모바일 앱을 마음껏 이용하세요!"
+    "message": "데이터가 동기화되었습니다. Medium Wallet 모바일 앱을 마음껏 이용하세요!"
   },
   "syncWithMobileDesc": {
-    "message": "계정과 정보를 모바일 장치와 동기화할 수 있습니다. MetaMask 모바일 앱을 열고 \"설정\"으로 이동하여 \"브라우저 확장에서 동기화\"를 탭합니다."
+    "message": "계정과 정보를 모바일 장치와 동기화할 수 있습니다. Medium Wallet 모바일 앱을 열고 \"설정\"으로 이동하여 \"브라우저 확장에서 동기화\"를 탭합니다."
   },
   "syncWithMobileDescNewUsers": {
-    "message": "MetaMask 모바일 앱을 처음 열었다면 전화에 표시되는 단계를 따르세요."
+    "message": "Medium Wallet 모바일 앱을 처음 열었다면 전화에 표시되는 단계를 따르세요."
   },
   "syncWithMobileScanThisCode": {
-    "message": "MetaMask 모바일 앱으로 이 코드를 스캔하세요."
+    "message": "Medium Wallet 모바일 앱으로 이 코드를 스캔하세요."
   },
   "syncWithMobileTitle": {
     "message": "모바일과 동기화"
@@ -1975,7 +1975,7 @@
     "message": "다시 시도"
   },
   "typePassword": {
-    "message": "MetaMask 암호 입력"
+    "message": "Medium Wallet 암호 입력"
   },
   "unapproved": {
     "message": "승인되지 않음"
@@ -2057,7 +2057,7 @@
     "message": "시드 구문"
   },
   "welcome": {
-    "message": "MetaMask 방문을 환영합니다"
+    "message": "환영합니다!"
   },
   "welcomeBack": {
     "message": "환영합니다!"

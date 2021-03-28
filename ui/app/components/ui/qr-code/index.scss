@@ -14,14 +14,14 @@
   &__message {
     @include H7;
 
-    color: #f7861c;
+    color: #074396;
   }
 
   &__error {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #f7861c;
+    color: #074396;
     margin-bottom: 9px;
   }
 }

@@ -110,7 +110,7 @@ export default class UnlockPage extends Component {
 
   renderSubmitButton() {
     const style = {
-      backgroundColor: '#f7861c',
+      backgroundColor: '#074396',
       color: 'white',
       marginTop: '20px',
       height: '60px',
@@ -144,11 +144,17 @@ export default class UnlockPage extends Component {
       <div className="unlock-page__container">
         <div className="unlock-page">
           <div className="unlock-page__mascot-container">
-            <Mascot
+            <img
+              width="120"
+              height="120"
+              src="./images/wallet.png"
+              alt=""
+            />
+            {/* <Mascot
               animationEventEmitter={this.animationEventEmitter}
               width="120"
               height="120"
-            />
+            /> */}
           </div>
           <h1 className="unlock-page__title">{t('welcomeBack')}</h1>
           <div>{t('unlockMessage')}</div>
