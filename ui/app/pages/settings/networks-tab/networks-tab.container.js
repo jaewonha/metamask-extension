@@ -48,7 +48,7 @@ const mapStateToProps = (state, ownProps) => {
 
   const networksToRender = [
     ...defaultNetworks,
-    ...frequentRpcNetworkListDetails,
+    ...frequentRpcNetworkListDetails, //!fixme: why showing localhost?
   ];
   let selectedNetwork =
     networksToRender.find(

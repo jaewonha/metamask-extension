@@ -62,13 +62,13 @@ function transformState(state = {}) {
   if (!state.PreferencesController.frequentRpcListDetail) {
     state.PreferencesController.frequentRpcListDetail = [];
   }
-  state.PreferencesController.frequentRpcListDetail.unshift({
-    rpcUrl: 'http://localhost:8545',
-    chainId: '0x539',
-    ticker: 'ETH',
-    nickname: 'Localhost 8545',
-    rpcPrefs: {},
-  });
+  // state.PreferencesController.frequentRpcListDetail.unshift({
+  //   rpcUrl: 'http://localhost:8545',
+  //   chainId: '0x539',
+  //   ticker: 'ETH',
+  //   nickname: 'Localhost 8545',
+  //   rpcPrefs: {},
+  // });
 
   // 4.  Delete CachedBalancesController.cachedBalances
   delete state.CachedBalancesController?.cachedBalances;

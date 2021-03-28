@@ -2251,5 +2251,8 @@
   },
   "zeroGasPriceOnSpeedUpError": {
     "message": "Zero gas price on speed up"
+  },
+  "medium": {
+    "message": "Medium"
   }
 }

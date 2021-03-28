@@ -286,9 +286,9 @@ class NetworkDropdown extends Component {
         {this.renderNetworkEntry('rinkeby')}
         {this.renderNetworkEntry('goerli')} */}
 
-        {/* {this.renderCustomRpcList(rpcListDetail, this.props.provider)} */}
+        {this.renderCustomRpcList(rpcListDetail, this.props.provider)}
 
-        {/*         
+                
         <DropdownMenuItem
           closeMenu={() => this.props.hideNetworkDropdown()}
           onClick={() => {
@@ -321,7 +321,7 @@ class NetworkDropdown extends Component {
           >
             {this.context.t('customRPC')}
           </span>
-        </DropdownMenuItem> */}
+        </DropdownMenuItem>
       </Dropdown>
     );
   }

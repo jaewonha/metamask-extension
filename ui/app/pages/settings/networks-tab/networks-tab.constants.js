@@ -5,6 +5,7 @@ import {
   KOVAN_CHAIN_ID,
   MAINNET,
   MAINNET_CHAIN_ID,
+  MEDIUM_CHAIN_ID,
   RINKEBY,
   RINKEBY_CHAIN_ID,
   ROPSTEN,
@@ -30,6 +31,19 @@ const defaultNetworksData = [
     ticker: 'ETH',
     blockExplorerUrl: 'https://ropsten.etherscan.io',
   },
+  /*
+  {
+    labelKey: MEDIUM,
+    iconColor: '#074396',
+    providerType: MEDIUM,
+    //rpcUrl: `http://52.79.249.152:8545`,
+    rpcUrl: `https://ropsten.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
+    chainId: MEDIUM_CHAIN_ID,
+    ticker: 'ETH',
+    blockExplorerUrl: 'https://themedium.io',
+  },
+  */
+  /*
   {
     labelKey: RINKEBY,
     iconColor: '#F6C343',
@@ -57,6 +71,7 @@ const defaultNetworksData = [
     ticker: 'ETH',
     blockExplorerUrl: 'https://kovan.etherscan.io',
   },
+  */
 ];
 
 export { defaultNetworksData };

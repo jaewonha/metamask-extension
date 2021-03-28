@@ -2086,5 +2086,8 @@
   },
   "zeroGasPriceOnSpeedUpError": {
     "message": "가속화 시 Gas 가격 0"
+  },
+  "medium": {
+    "message": "미디움"
   }
 }
