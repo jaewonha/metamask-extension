@@ -194,6 +194,8 @@ class NetworkDropdown extends Component {
       name = this.context.t('rinkeby');
     } else if (providerName === 'goerli') {
       name = this.context.t('goerli');
+    } else if (providerName === 'medium') {
+      name = this.context.t('medium');
     } else {
       name = provider.nickname || this.context.t('unknownNetwork');
     }
@@ -282,6 +284,7 @@ class NetworkDropdown extends Component {
         </div>
         {this.renderNetworkEntry('mainnet')}
         {this.renderNetworkEntry('ropsten')}
+        {/* {this.renderNetworkEntry('medium')} */}
         {/* {this.renderNetworkEntry('kovan')}
         {this.renderNetworkEntry('rinkeby')}
         {this.renderNetworkEntry('goerli')} */}

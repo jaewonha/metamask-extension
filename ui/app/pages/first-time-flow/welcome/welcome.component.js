@@ -48,7 +48,7 @@ export default class Welcome extends PureComponent {
           <img
               width="120"
               height="120"
-              src="./images/wallet.png"
+              src="./images/wallet.svg"
               alt=""
           />
           {/* <Mascot

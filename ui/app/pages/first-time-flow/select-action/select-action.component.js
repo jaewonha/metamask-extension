@@ -47,46 +47,60 @@ export default class SelectAction extends PureComponent {
               {t('newToMetaMask')}
             </div>
             <div className="select-action__select-buttons">
+
               <div className="select-action__select-button">
+
                 <div className="select-action__button-content">
                   <div className="select-action__button-symbol">
-                    <img src="/images/download-alt.svg" alt="" />
+                    <img src="/images/icons/circle-download.svg" alt="" />
                   </div>
-                  <div className="select-action__button-text-big">
-                    {t('noAlreadyHaveSeed')}
-                  </div>
-                  <div className="select-action__button-text-small">
-                    {t('importYourExisting')}
+
+                  <div className="select-action__button-content-desc">
+                    <div className="select-action__button-text-big">
+                      {t('noAlreadyHaveSeed')}
+                    </div>
+                    <div className="select-action__button-text-small">
+                      {t('importYourExisting')}
+                    </div>                  
                   </div>
                 </div>
+
                 <Button
                   type="primary"
-                  className="first-time-flow__button"
+                  className="first-time-flow__button medium-button first-time-right-button"
                   onClick={this.handleImport}
                 >
                   {t('importWallet')}
                 </Button>
+
               </div>
+
               <div className="select-action__select-button">
+
                 <div className="select-action__button-content">
                   <div className="select-action__button-symbol">
-                    <img src="/images/thin-plus.svg" alt="" />
+                    <img src="/images/icons/circle-plus.svg" alt="" />
                   </div>
-                  <div className="select-action__button-text-big">
-                    {t('letsGoSetUp')}
-                  </div>
-                  <div className="select-action__button-text-small">
-                    {t('thisWillCreate')}
+
+                  <div className="select-action__button-content-desc">
+                    <div className="select-action__button-text-big">
+                      {t('letsGoSetUp')}
+                    </div>
+                    <div className="select-action__button-text-small">
+                      {t('thisWillCreate')}
+                    </div>
                   </div>
                 </div>
+
                 <Button
                   type="primary"
-                  className="first-time-flow__button"
+                  className="first-time-flow__button medium-button first-time-right-button"
                   onClick={this.handleCreate}
                 >
                   {t('createAWallet')}
                 </Button>
               </div>
+
             </div>
           </div>
         </div>

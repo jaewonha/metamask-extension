@@ -147,7 +147,7 @@ export default class UnlockPage extends Component {
             <img
               width="120"
               height="120"
-              src="./images/wallet.png"
+              src="./images/wallet.svg"
               alt=""
             />
             {/* <Mascot

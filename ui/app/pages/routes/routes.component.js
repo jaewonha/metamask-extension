@@ -398,6 +398,8 @@ export default class Routes extends Component {
         return this.context.t('rinkeby');
       case 'goerli':
         return this.context.t('goerli');
+      case 'medium':
+        return this.context.t('medium');
       default:
         return this.context.t('unknownNetwork');
     }

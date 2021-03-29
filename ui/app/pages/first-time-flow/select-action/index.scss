@@ -15,7 +15,10 @@
 
     text-align: center;
     margin-top: 65px;
-    color: black;
+    //color: black;
+    font-weight: bold;
+    color: #004098;
+    font-size: 28px;
   }
 
   &__select-buttons {
@@ -35,24 +38,63 @@
     box-sizing: border-box;
     border-radius: 10px;
     margin-left: 22px;
+    background-color: #F1F5FB;
 
     .first-time-flow__button {
       max-width: 221px;
       height: 44px;
     }
-  }
 
-  &__button-symbol {
-    color: #c4c4c4;
-    margin-top: 41px;
+    .medium-button {
+      color: #004098;
+      background-color: #F1F5FB;
+      
+      border-color: #004098;
+      font-size: 14px;
+      border-radius: 18px;
+    }
+
+    .medium-button:hover {
+      color:white;      
+      background-color: #004098;
+    }
+
+    .first-time-right-button {
+      align-self: flex-end;
+      margin-right: 30px;
+      width: 128px;
+      height: 36px;
+      font-weight: lighter !important;
+      font-size: 14px !important;
+    }
+
   }
 
   &__button-content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     height: 144px;
+    width:100%;
+    padding-left:30px;
+  }
+
+  &__button-symbol {
+    color: #c4c4c4;
+    //margin-top: 41px;
+    margin-top: 10px;
+    width:60px;
+  }
+
+
+  &__button-content-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    //height: 144px;
+    //width:100%
   }
 
   &__button-text-big {

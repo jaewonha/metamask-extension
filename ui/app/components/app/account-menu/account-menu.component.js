@@ -341,7 +341,7 @@ export default class AccountMenu extends Component {
           {this.renderScrollButton()}
         </div>
         {/* 이하 계정 관련 메뉴*/}
-        <div className="account-menu__divider" />
+        {/* <div className="account-menu__divider" />
         <AccountMenuItem
           onClick={() => {
             toggleAccountMenu();
@@ -437,7 +437,7 @@ export default class AccountMenu extends Component {
             />
           }
           text={t('settings')}
-        />
+        /> */}
       </div> 
     );
   }
