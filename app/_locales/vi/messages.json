@@ -554,7 +554,7 @@
     "message": "Nếu cần sao lưu lại cụm mật khẩu gốc của mình, bạn có thể tìm thấy cụm mật khẩu này trong phần Cài đặt -> Bảo mật."
   },
   "endOfFlowMessage7": {
-    "message": "Nếu bạn có câu hỏi hoặc nhận thấy điều gì đó đáng ngờ, hãy gửi email đến support@metamask.io."
+    "message": "Nếu bạn có câu hỏi hoặc nhận thấy điều gì đó đáng ngờ, hãy gửi email đến support@themedium.io."
   },
   "endOfFlowMessage8": {
     "message": "MetaMask không thể khôi phục cụm mật khẩu gốc của bạn."
@@ -601,11 +601,11 @@
     "description": "Displayed error name for debugging purposes. $1 is the error name"
   },
   "errorPageMessage": {
-    "message": "Hãy thử lại bằng cách tải lại trang hoặc liên hệ với bộ phận hỗ trợ theo địa chỉ support@metamask.io",
+    "message": "Hãy thử lại bằng cách tải lại trang hoặc liên hệ với bộ phận hỗ trợ theo địa chỉ support@themedium.io",
     "description": "Message displayed on generic error page in the fullscreen or notification UI"
   },
   "errorPagePopupMessage": {
-    "message": "Hãy thử lại bằng cách đóng và mở lại cửa sổ bật lên hoặc liên hệ với bộ phận hỗ trợ theo địa chỉ support@metamask.io",
+    "message": "Hãy thử lại bằng cách đóng và mở lại cửa sổ bật lên hoặc liên hệ với bộ phận hỗ trợ theo địa chỉ support@themedium.io",
     "description": "Message displayed on generic error page in the popup UI"
   },
   "errorPageTitle": {
@@ -1220,7 +1220,7 @@
     "message": "Hãy cẩn với cụm mật khẩu gốc của bạn, đã có báo cáo về các trang web cố tình giả mạo MetaMask. MetaMask sẽ không bao giờ hỏi cụm mật khẩu gốc của bạn!"
   },
   "protectYourKeysMessage2": {
-    "message": "Hãy lưu giữ cụm mật khẩu của bạn an toàn. Nếu bạn nhận thấy điều gì đó đáng ngờ hoặc không chắc chắn về một trang web, hãy gửi email đến support@metamask.io"
+    "message": "Hãy lưu giữ cụm mật khẩu của bạn an toàn. Nếu bạn nhận thấy điều gì đó đáng ngờ hoặc không chắc chắn về một trang web, hãy gửi email đến support@themedium.io"
   },
   "provide": {
     "message": "Cung cấp"

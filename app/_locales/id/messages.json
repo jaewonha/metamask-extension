@@ -554,7 +554,7 @@
     "message": "Jika Anda perlu mencadangkan frasa pemulihan lagi, Anda dapat menemukannya di Pengaturan -> Keamanan."
   },
   "endOfFlowMessage7": {
-    "message": "Jika Anda memiliki pertanyaan atau melihat sesuatu yang mencurigakan hubungi lewat email ke support@metamask.io."
+    "message": "Jika Anda memiliki pertanyaan atau melihat sesuatu yang mencurigakan hubungi lewat email ke support@themedium.io."
   },
   "endOfFlowMessage8": {
     "message": "MetaMask tidak dapat memulihkan frasa pemulihan Anda."
@@ -601,11 +601,11 @@
     "description": "Displayed error name for debugging purposes. $1 is the error name"
   },
   "errorPageMessage": {
-    "message": "Coba lagi dengan memuat kembali halaman, atau hubungi dukungan di support@metamask.io",
+    "message": "Coba lagi dengan memuat kembali halaman, atau hubungi dukungan di support@themedium.io",
     "description": "Message displayed on generic error page in the fullscreen or notification UI"
   },
   "errorPagePopupMessage": {
-    "message": "Coba lagi dengan menutup dan membuka kembali popup, atau hubungi dukungan di support@metamask.io",
+    "message": "Coba lagi dengan menutup dan membuka kembali popup, atau hubungi dukungan di support@themedium.io",
     "description": "Message displayed on generic error page in the popup UI"
   },
   "errorPageTitle": {
@@ -1220,7 +1220,7 @@
     "message": "Berhati-hatilah dengan frasa pemulihan Anda — ada laporan dari beberapa situs web yang mencoba membuat MetaMask imitasi. MetaMask tidak pernah meminta frasa pemulihan Anda!"
   },
   "protectYourKeysMessage2": {
-    "message": "Jaga frasa Anda tetap aman. Jika Anda melihat sesuatu yang mencurigakan, atau tidak yakin dengan satu situs web, hubungi lewat email di support@metamask.io"
+    "message": "Jaga frasa Anda tetap aman. Jika Anda melihat sesuatu yang mencurigakan, atau tidak yakin dengan satu situs web, hubungi lewat email di support@themedium.io"
   },
   "provide": {
     "message": "Berikan"
