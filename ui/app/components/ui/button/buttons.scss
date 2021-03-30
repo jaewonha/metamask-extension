@@ -20,7 +20,8 @@ $warning-light-orange: #f8b588;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  border-radius: 6px;
+  //border-radius: 6px;
+  border-radius: 18px;
   width: 100%;
   transition: border-color 0.3s ease, background-color 0.3s ease;
 
@@ -127,7 +128,6 @@ $warning-light-orange: #f8b588;
 .btn-default {
   color: $Grey-500;
   border: 1px solid $hover-default;
-  border-radius: 18px;
   
   &:hover {
     border-color: $Grey-500;
@@ -148,7 +148,6 @@ $warning-light-orange: #f8b588;
 .btn-primary {
   color: $white;
   border: 1px solid $Blue-500;
-  border-radius: 18px;
   background-color: $Blue-500;
 
   &:hover {
