@@ -5,6 +5,14 @@
 @import 'metametrics-opt-in/index';
 
 
+.first-time-flow-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 95px;
+}
+
 .first-time-flow {
   width: 100%;
   background-color: $white;
@@ -32,6 +40,7 @@
   &__form {
     display: flex;
     flex-direction: column;
+    width: 420px;
   }
 
   &__create-back {
@@ -41,8 +50,10 @@
   &__header {
     @include H1;
 
+    color:$Medium-Blue;
+    font-size:28px;
+
     margin-bottom: 24px;
-    color: black;
   }
 
   &__subheader {
@@ -50,7 +61,17 @@
   }
 
   &__input {
-    max-width: 350px;
+    max-width: 420px;
+      
+    .MuiFormLabel-root {
+      color: $Medium-light-gray !important;
+      font-size: 14px !important;
+    }
+
+    .MuiInputBase-root {
+      border-radius: 10px !important;
+      height: 54px im !important
+    }
   }
 
   &__textarea-wrapper {
@@ -105,10 +126,26 @@
     }
   }
 
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
   &__button {
     margin: 35px 0 14px;
-    width: 170px;
-    height: 44px;
+    //width: 170px;
+    //height: 44px;
+    width: 74px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  &__button_back {
+    background-color: #fff !important;
+    color: $Medium-light-gray !important;
+    border: none;
   }
 
   &__checkbox-container {
@@ -126,6 +163,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
 
     &:hover {
       border: 1.5px solid #2f9ae0;
@@ -140,7 +178,8 @@
     @include H4;
 
     color: #939090;
-    margin-left: 18px;
+    margin-left: 6px;
+    font-size: 14px !important;
   }
 
   &__link-text {

@@ -145,25 +145,7 @@ export default class NewAccount extends PureComponent {
     } = this.state;
 
     return (
-      <div>
-        <div className="first-time-flow__create-back">
-          <a
-            onClick={(e) => {
-              e.preventDefault();
-              this.context.metricsEvent({
-                eventOpts: {
-                  category: 'Onboarding',
-                  action: 'Create Password',
-                  name: 'Go Back from Onboarding Create',
-                },
-              });
-              this.props.history.push(INITIALIZE_SELECT_ACTION_ROUTE);
-            }}
-            href="#"
-          >
-            {`< Back`}
-          </a>
-        </div>
+      <div className="first-time-flow-wrapper">
         <div className="first-time-flow__header">{t('createPassword')}</div>
         <form className="first-time-flow__form" onSubmit={this.handleCreate}>
           <TextField
@@ -217,7 +199,7 @@ export default class NewAccount extends PureComponent {
                 <a
                   onClick={(e) => e.stopPropagation()}
                   key="first-time-flow__link-text"
-                  href="https://themedium.io/wallet-terms.html"
+                  href="https://themedium.io/wallet/terms.html"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -228,14 +210,37 @@ export default class NewAccount extends PureComponent {
               ])}
             </span>
           </div>
-          <Button
-            type="primary"
-            className="first-time-flow__button"
-            disabled={!this.isValid() || !termsChecked}
-            onClick={this.handleCreate}
-          >
-            {t('create')}
-          </Button>
+
+          <div className="first-time-flow__buttons">
+            <Button 
+              className="first-time-flow__create-back"
+              type="primary"
+              className="first-time-flow__button first-time-flow__button_back"
+              onClick={ (e) => {
+                e.preventDefault();
+                this.context.metricsEvent({
+                  eventOpts: {
+                    category: 'Onboarding',
+                    action: 'Create Password',
+                    name: 'Go Back from Onboarding Create',
+                  },
+                });
+                this.props.history.push(INITIALIZE_SELECT_ACTION_ROUTE);
+              } }
+            >
+              {t('back')}
+            </Button>
+
+            <Button
+              type="primary"
+              className="first-time-flow__button"
+              disabled={!this.isValid() || !termsChecked}
+              onClick={this.handleCreate}
+            >
+              {t('create')}
+            </Button>
+          </div>
+
         </form>
       </div>
     );

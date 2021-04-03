@@ -24,7 +24,7 @@ export default class MetaMetricsOptInModal extends Component {
           <div className="metametrics-opt-in__content">
             <MetaFoxLogo />
             <div className="metametrics-opt-in__body-graphic">
-              <img src="images/metrics-chart.svg" alt="" />
+              {/* <img src="images/metrics-chart.svg" alt="" /> */}
             </div>
             <div className="metametrics-opt-in__title">
               Help Us Improve MetaMask
@@ -90,7 +90,7 @@ export default class MetaMetricsOptInModal extends Component {
               more information in relation to our privacy practices, please see
               our&nbsp;
               <a
-                href="https://metamask.io/privacy.html"
+                href="https://themedium.io/wallet/privacy.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >

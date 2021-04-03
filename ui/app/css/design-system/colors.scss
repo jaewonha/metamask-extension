@@ -1,16 +1,19 @@
 // These are the colors of the MetaMask design system
 // Only design system colors should be added, no superfluous variables
 // See https://bit.ly/32mnoja (link to figma design system)
+$Medium-Blue: #004098;
+$Medium-light-gray: #787878;
+
 $Blue-000: #eaf6ff;
 $Blue-100: #a7d9fe;
 $Blue-200: #75c4fd;
 $Blue-300: #43aefc;
 //$Blue-400: #1098fc;
-$Blue-400: #004098;
+$Blue-400: $Medium-Blue;
 //$Blue-500: #037dd6;
-$Blue-500: #004098;
+$Blue-500: $Medium-Blue;
 //$Blue-600: #0260a4;
-$Blue-600: #004098;
+$Blue-600: $Medium-Blue;
 $Blue-700: #024272;
 $Blue-800: #01253f;
 $Blue-900: #00080d;
@@ -80,7 +83,7 @@ $neutral-grey: $Grey-500;
 
 // Everything below this line is part of the new color system
 //$primary-1: #037dd6;
-$primary-1: #004098;
+$primary-1: $Medium-Blue;
 $primary-2: #eaf6ff;
 $primary-3: #0260a4;
 

@@ -317,9 +317,10 @@ export default class Home extends PureComponent {
           exact
         />
         <div className="home__container">
-          {!swapsWelcomeMessageHasBeenShown && swapsEnabled && isMainnet ? (
+          { /* disable swap popup
+           !swapsWelcomeMessageHasBeenShown && swapsEnabled && isMainnet ? (
             <SwapsIntroPopup onClose={setSwapsWelcomeMessageHasBeenShown} />
-          ) : null}
+          ) : null */}
           {isPopup && !connectedStatusPopoverHasBeenShown
             ? this.renderPopover()
             : null}

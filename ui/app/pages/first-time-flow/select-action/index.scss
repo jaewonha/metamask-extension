@@ -17,7 +17,7 @@
     margin-top: 65px;
     //color: black;
     font-weight: bold;
-    color: #004098;
+    color: $Medium-Blue;
     font-size: 28px;
   }
 
@@ -47,14 +47,14 @@
 
     .medium-button {
       color:white;      
-      background-color: #004098;
-      border-color: #004098;
+      background-color: $Medium-Blue;
+      border-color: $Medium-Blue;
       font-size: 14px;
       border-radius: 18px;
     }
 
     .medium-button:hover {
-      color: #004098;
+      color: $Medium-Blue;
       background-color: white;
     }
 

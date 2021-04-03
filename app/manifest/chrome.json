@@ -1,6 +1,6 @@
 {
   "externally_connectable": {
-    "matches": ["https://metamask.io/*"],
+    "matches": ["https://themedium.io/wallet/*"],
     "ids": ["*"]
   },
   "minimum_chrome_version": "63"
