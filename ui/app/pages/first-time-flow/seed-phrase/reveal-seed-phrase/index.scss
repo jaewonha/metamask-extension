@@ -1,10 +1,20 @@
 .reveal-seed-phrase {
+
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 14px;
+  
   @media screen and (max-width: 576px) {
-    display: flex;
-    flex-direction: column;
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-top: 30px;
+  }
+
+  &__header {
+    margin-bottom: 45px;
   }
 
   &__secret {
@@ -15,8 +25,9 @@
     border-radius: 6px;
     background-color: $white;
     padding: 18px;
-    margin-top: 36px;
-    max-width: 350px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    //max-width: 350px;
   }
 
   &__secret-words {
@@ -67,9 +78,74 @@
 
   &__buttons {
     display: flex;
+    justify-content: flex-end;
 
     .first-time-flow__button:last-of-type {
       margin-left: 20px;
     }
   }
+
+  .first-time-flow__header {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .first-time-flow__text-block {
+    margin-bottom: 14px;
+  }
+
+  .first-time-flow__button_back {
+    width: 100px;
+  }
+
+  .warning-text {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    color: $Medium-Warn;
+  }
+
+  .round-warn {
+    background-color: $Medium-Warn;
+    border-radius: 8px;
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+
+    color: white;
+    text-align: center;
+    
+    margin-right: 8px;
+  }
+
+  .seed-phrase__side {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .circle-orange {
+    background-color: #F22929;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-right: 18px;
+  }
+
+  .seed-phrase__side-tip-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .first-time-flow__text-block {
+      margin-bottom: 8px;
+      font-weight: 100;
+    }
+  }
+
 }

@@ -1284,7 +1284,7 @@
     "description": "select this type of file to use to import an account"
   },
   "privateKeyWarning": {
-    "message": "Warning: Never disclose this key. Anyone with your private keys can steal any assets held in your account."
+    "message": "Never disclose this key. Anyone with your private keys can steal any assets held in your account."
   },
   "privateNetwork": {
     "message": "Private Network"
@@ -2228,6 +2228,12 @@
   },
   "writePhrase": {
     "message": "Write this phrase on a piece of paper and store in a secure location. If you want even more security, write it down on multiple pieces of paper and store each in 2 - 3 different locations."
+  },
+  "writePhrase1": {
+    "message": "Write this phrase on a piece of paper and store in a secure location."
+  },
+  "writePhrase2": {
+    "message": "Write it down on multiple pieces of paper and store each in 2 - 3 different locations."
   },
   "xOfY": {
     "message": "$1 of $2",

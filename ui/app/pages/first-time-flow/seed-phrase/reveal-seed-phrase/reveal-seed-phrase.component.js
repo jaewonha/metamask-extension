@@ -127,57 +127,77 @@ export default class RevealSeedPhrase extends PureComponent {
 
     return (
       <div className="reveal-seed-phrase">
+
         <div className="seed-phrase__sections">
+
           <div className="seed-phrase__main">
             <div className="first-time-flow__header">
               {t('secretBackupPhrase')}
             </div>
-            <div className="first-time-flow__text-block">
+            
+            <div className="first-time-flow__text-block text-light-gray">
               {t('secretBackupPhraseDescription')}
             </div>
-            <div className="first-time-flow__text-block">
-              {t('secretBackupPhraseWarning')}
+            <div className="first-time-flow__text-block warning-text">
+              <div className="round-warn">경고</div>
+              <div>
+                {t('secretBackupPhraseWarning')}
+              </div>
             </div>
             {this.renderSecretWordsContainer()}
           </div>
-          <div className="seed-phrase__side">
-            <div className="first-time-flow__text-block">{`${t('tips')}:`}</div>
-            <div className="first-time-flow__text-block">
-              {t('storePhrase')}
-            </div>
-            <div className="first-time-flow__text-block">
-              {t('writePhrase')}
-            </div>
-            <div className="first-time-flow__text-block">
-              {t('memorizePhrase')}
-            </div>
-            <div className="first-time-flow__text-block">
-              <a
-                className="reveal-seed-phrase__export-text"
-                onClick={this.handleExport}
-              >
-                {t('downloadSecretBackup')}
-              </a>
-            </div>
+
+
+          <div className="reveal-seed-phrase__buttons">
+            <Button
+              type="secondary"
+              className="first-time-flow__button first-time-flow__button_back"
+              onClick={this.handleSkip}
+            >
+              {t('remindMeLater')}
+            </Button>
+            <Button
+              type="primary"
+              className="first-time-flow__button"
+              onClick={this.handleNext}
+              disabled={!isShowingSeedPhrase}
+            >
+              {t('next')}
+            </Button>
           </div>
+
+          <div className="seed-phrase__side">
+            <div className="circle-orange">Tips</div>
+
+            <div className="seed-phrase__side-tip-desc">
+
+              <div className="first-time-flow__text-block">
+                {t('storePhrase')}
+              </div>
+              <div className="first-time-flow__text-block">
+                {t('writePhrase1')}
+              </div>
+              <div className="first-time-flow__text-block">
+                {t('writePhrase2')}
+              </div>
+              <div className="first-time-flow__text-block">
+                {t('memorizePhrase')}
+              </div>
+              <div className="first-time-flow__text-block">
+                <a
+                  className="reveal-seed-phrase__export-text"
+                  onClick={this.handleExport}
+                >
+                  {t('downloadSecretBackup')}
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
-        <div className="reveal-seed-phrase__buttons">
-          <Button
-            type="secondary"
-            className="first-time-flow__button"
-            onClick={this.handleSkip}
-          >
-            {t('remindMeLater')}
-          </Button>
-          <Button
-            type="primary"
-            className="first-time-flow__button"
-            onClick={this.handleNext}
-            disabled={!isShowingSeedPhrase}
-          >
-            {t('next')}
-          </Button>
-        </div>
+        
         {onboardingInitiator ? (
           <Snackbar
             content={t('onboardingReturnNotice', [
@@ -186,6 +206,7 @@ export default class RevealSeedPhrase extends PureComponent {
             ])}
           />
         ) : null}
+
       </div>
     );
   }

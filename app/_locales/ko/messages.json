@@ -1205,7 +1205,7 @@
     "description": "select this type of file to use to import an account"
   },
   "privateKeyWarning": {
-    "message": "경고: 이 키를 노출하지 마세요. 비공개 키가 있는 사람이라면 누구든 귀하의 계정에 있는 자산을 훔칠 수 있습니다."
+    "message": "이 키를 노출하지 마세요. 비공개 키가 있는 사람이라면 누구든 귀하의 계정에 있는 자산을 훔칠 수 있습니다."
   },
   "privateNetwork": {
     "message": "비공개 네트워크"
@@ -2067,6 +2067,12 @@
   },
   "writePhrase": {
     "message": "메모지에 이 구문을 적어 안전한 곳에 보관하세요. 보안을 더욱 강화하고 싶다면 여러 메모지에 적은 다음 2~3곳에 보관하세요."
+  },
+  "writePhrase1": {
+    "message": "메모지에 이 구문을 적어 안전한 곳에 보관하세요."
+  },
+  "writePhrase2": {
+    "message": "보안을 더욱 강화하고 싶다면 여러 메모지에 적은 다음 2~3곳에 보관하세요."
   },
   "xOfY": {
     "message": "$2 중 $1",
