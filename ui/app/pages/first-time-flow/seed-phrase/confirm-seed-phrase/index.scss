@@ -5,6 +5,7 @@
 
   &__sorted-seed-words {
     max-width: 575px;
+    margin-left: 7px;
   }
 
   &__seed-word {
@@ -99,4 +100,17 @@
       }
     }
   }
+
+  .first-time-flow__header {
+    margin-top: 100px;
+    margin-bottom: 45px;
+    max-width: 575px;
+    text-align: center;
+  }
+
+  .first-time-flow__buttons {
+    max-width: 575px;
+  }
+
+
 }

@@ -1,6 +1,8 @@
 .end-of-flow {
   color: black;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
 
   .app-header__logo-container {
     width: 742px;
@@ -11,13 +13,36 @@
     }
   }
 
-  &__text-1,
+  &__text-1 {
+    @include Paragraph;
+
+    font-weight: normal;
+    margin-top: 18px;
+
+    font-size: 20px;
+    text-align: center;
+
+    margin-bottom: 28px;
+  }
+
   &__text-3 {
     @include Paragraph;
 
     font-weight: normal;
     margin-top: 18px;
   }
+
+  // &__text-3 {
+  //   @include Paragraph;
+
+  //   margin-top: 12px;
+
+  //   color: $Medium-light-gray;
+  //   font-size: 14px;
+  //   font-weight: lighter;
+  // }
+
+  
 
   &__text-2 {
     @include Paragraph;
@@ -52,5 +77,12 @@
   &__emoji {
     font-size: 80px;
     margin-top: 70px;
+  }
+
+  .first-time-flow__button {
+    align-self: flex-end;
+    margin-right: 75px;
+    //width: 102px;
+    width: 140px;
   }
 }

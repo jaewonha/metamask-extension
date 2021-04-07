@@ -138,8 +138,8 @@ export default class RevealSeedPhrase extends PureComponent {
             <div className="first-time-flow__text-block text-light-gray">
               {t('secretBackupPhraseDescription')}
             </div>
-            <div className="first-time-flow__text-block warning-text">
-              <div className="round-warn">경고</div>
+            <div className="first-time-flow__text-block warning-text text-bold">
+              <div className="round-warn">{t('warning')}</div>
               <div>
                 {t('secretBackupPhraseWarning')}
               </div>
@@ -167,28 +167,28 @@ export default class RevealSeedPhrase extends PureComponent {
           </div>
 
           <div className="seed-phrase__side">
-            <div className="circle-orange">Tips</div>
+            <div className="circle-orange text-bold">Tips</div>
 
             <div className="seed-phrase__side-tip-desc">
 
               <div className="first-time-flow__text-block">
-                {t('storePhrase')}
+                {`· ${t('storePhrase')}`}
               </div>
               <div className="first-time-flow__text-block">
-                {t('writePhrase1')}
+                {`· ${t('writePhrase1')}`}
               </div>
               <div className="first-time-flow__text-block">
-                {t('writePhrase2')}
+                {`· ${t('writePhrase2')}`}
               </div>
               <div className="first-time-flow__text-block">
-                {t('memorizePhrase')}
+                {`· ${t('memorizePhrase')}`}
               </div>
               <div className="first-time-flow__text-block">
                 <a
                   className="reveal-seed-phrase__export-text"
                   onClick={this.handleExport}
                 >
-                  {t('downloadSecretBackup')}
+                  {`· ${t('downloadSecretBackup')}`}
                 </a>
               </div>
 

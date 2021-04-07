@@ -132,21 +132,10 @@ export default class ConfirmSeedPhrase extends PureComponent {
 
     return (
       <div className="confirm-seed-phrase">
-        <div className="confirm-seed-phrase__back-button">
-          <a
-            onClick={(e) => {
-              e.preventDefault();
-              history.push(INITIALIZE_SEED_PHRASE_ROUTE);
-            }}
-            href="#"
-          >
-            {`< Back`}
-          </a>
-        </div>
         <div className="first-time-flow__header">
           {t('confirmSecretBackupPhrase')}
         </div>
-        <div className="first-time-flow__text-block">
+        <div className="first-time-flow__text-block text-light-gray">
           {t('selectEachPhrase')}
         </div>
         <div
@@ -186,14 +175,30 @@ export default class ConfirmSeedPhrase extends PureComponent {
             );
           })}
         </div>
-        <Button
-          type="primary"
-          className="first-time-flow__button"
-          onClick={this.handleSubmit}
-          disabled={!this.isValid()}
-        >
-          {t('confirm')}
-        </Button>
+
+        <div className="first-time-flow__buttons">
+          <Button 
+              className="first-time-flow__create-back"
+              type="primary"
+              className="first-time-flow__button first-time-flow__button_back"
+              onClick={ (e) => {
+                e.preventDefault();
+                history.push(INITIALIZE_SEED_PHRASE_ROUTE);
+              } }
+            >
+              {t('back')}
+          </Button>
+          
+          <Button
+            type="primary"
+            className="first-time-flow__button"
+            onClick={this.handleSubmit}
+            disabled={!this.isValid()}
+          >
+            {t('confirm')}
+          </Button>
+        </div>
+
       </div>
     );
   }
