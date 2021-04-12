@@ -147,19 +147,27 @@ $warning-light-orange: #f8b588;
 
 .btn-primary {
   color: $white;
-  border: 1px solid $Blue-500;
-  background-color: $Blue-500;
+  //border: 1px solid $Blue-500;
+  //background-color: $Blue-500;
+  background-color: $Medium-Blue;
+  border-color: $Medium-Blue;
+  font-size: 14px;
+  border-radius: 18px;
+  border-width: 2px;
 
   &:hover {
-    border-color: $hover-confirm;
-    background-color: $hover-confirm;
-    color: $Blue-500;
-    border-color: $Blue-500;
+    //border-color: $hover-confirm;
+    //background-color: $hover-confirm;
+    //color: $Blue-500;
+    border: 1px solid $Blue-500;
+    color: $Medium-Blue;
+    background-color: white;
+    font-weight: bold !important;
   }
 
   &:active {
-    background: $Blue-600;
-    border-color: $Blue-600;
+    background-color: $Medium-Blue;
+    border-color: $Medium-Blue;
   }
 
   &--disabled,

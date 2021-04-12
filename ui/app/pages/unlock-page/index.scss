@@ -1,3 +1,7 @@
+.app-header {
+  background: none;
+}
+
 .unlock-page {
   display: flex;
   flex-direction: column;
@@ -16,26 +20,50 @@
     flex: 1 0 auto;
   }
 
-  &__mascot-container {
-    margin-top: 24px;
-  }
-
   &__title {
     @include H2;
 
     margin-top: 5px;
     font-weight: 800;
     color: $tundora;
+
+    color: $Medium-Blue;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  &__desc {
+    color: $Medium-Font-Size-Sub;
+    font-size: 14px;
+  }
+
+  &__input {
+    max-width: 420px;
+      
+    .MuiFormLabel-root {
+      color: $Medium-light-gray !important;
+      font-size: 14px !important;
+    }
+
+    .MuiInputBase-root {
+      border-radius: 10px !important;
+      height: 54px im !important
+    }
   }
 
   &__form {
     width: 100%;
-    margin: 56px 0 8px;
+    margin: 44px 0 8px;
   }
 
   &__links {
-    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22px;
+    //margin-top: 25px;
     width: 100%;
+    font-size: 14px;
   }
 
   &__link {
@@ -52,4 +80,29 @@
       margin-top: 10px;
     }
   }
+
+  &__button {
+    margin: 15px 0 14px;
+    //width: 170px;
+    //height: 44px;
+    width: 100px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  @media screen and (min-width: 576px) {
+    img.logo {
+      display: none;
+    }
+
+    &__button {
+      margin: 35px 0 14px;
+    }
+
+    &__mascot-container {
+      margin-top: 24px;
+    }  
+  }
+  
 }

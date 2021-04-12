@@ -1,7 +1,26 @@
 .text-light-gray {
-    color: $Medium-light-gray
+    color: $Medium-light-gray !important;
 }
 
 .text-bold {
     font-weight: bold;
 }
+
+.text-size-sub {
+    font-size: $Medium-Font-Size-Sub;
+}
+
+// .medium-button {
+//     color:white;      
+//     background-color: $Medium-Blue;
+//     border-color: $Medium-Blue;
+//     font-size: 14px;
+//     border-radius: 18px;
+// }
+
+// .medium-button:hover {
+//     color: $Medium-Blue;
+//     background-color: red;
+//     font-weight: bold !important;
+// }
+

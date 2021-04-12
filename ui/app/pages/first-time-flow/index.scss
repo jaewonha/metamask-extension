@@ -4,13 +4,15 @@
 @import 'end-of-flow/index';
 @import 'metametrics-opt-in/index';
 
+.app-header {
+  background: none;
+}
 
 .first-time-flow-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 95px;
 }
 
 .first-time-flow {
@@ -53,10 +55,14 @@
     color:$Medium-Blue;
     font-size:28px;
 
-    margin-bottom: 24px;
+    //margin-bottom: 24px;
 
     margin-top: 100px;
+    margin-bottom: 40px;
     text-align: center;
+
+    //align-items: center;
+    font-weight: bold;
   }
 
   &__subheader {
@@ -84,7 +90,7 @@
     position: relative;
     min-width: 0;
     flex-direction: column;
-    max-width: 350px;
+    //max-width: 350px;
   }
 
   &__textarea-label {
@@ -127,6 +133,8 @@
 
       margin-bottom: 16px;
     }
+
+    white-space: pre-line;
   }
 
   &__buttons {
@@ -139,10 +147,10 @@
     margin: 35px 0 14px;
     //width: 170px;
     //height: 44px;
-    width: 74px;
+    width: 100px;
     height: 36px;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: lighter;
   }
 
   &__button_back {

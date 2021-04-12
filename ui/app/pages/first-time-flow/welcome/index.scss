@@ -17,10 +17,15 @@
   }
 
   &__header {
-    @include H3;
+    //@include H3;
 
     margin-bottom: 22px;
     margin-top: 50px;
+    text-align: center;
+
+    color: $Medium-Blue;
+    font-size: 28px;
+    font-weight: bold;
     text-align: center;
   }
 
@@ -29,16 +34,14 @@
 
     div {
       @include Paragraph;
+
+      font-size: 16px;
+      color: $Medium-light-gray;
     }
 
     @media screen and (max-width: 575px) {
       font-size: 0.9rem;
     }
   }
-
-  .first-time-flow__button {
-    width: 184px;
-    font-weight: 500;
-    margin-top: 44px;
-  }
+  
 }

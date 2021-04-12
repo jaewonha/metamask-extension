@@ -589,7 +589,7 @@
     "message": "Request encryption public key"
   },
   "endOfFlowMessage1": {
-    "message": "You passed the test - keep your seedphrase safe, it's your responsibility!"
+    "message": "You passed the test - keep your seedphrase safe,\n it's your responsibility!"
   },
   "endOfFlowMessage10": {
     "message": "All Done"
@@ -1447,7 +1447,7 @@
     "message": "Your secret backup phrase makes it easy to back up and restore your account."
   },
   "secretBackupPhraseWarning": {
-    "message": "WARNING: Never disclose your backup phrase. Anyone with this phrase can take your Ether forever."
+    "message": "Never disclose your backup phrase. Anyone with this phrase can take your Ether forever."
   },
   "secretPhrase": {
     "message": "Enter your secret twelve word phrase here to restore your vault."
@@ -2260,5 +2260,8 @@
   },
   "medium": {
     "message": "Medium"
+  },
+  "warning": {
+    "message": "Warning"
   }
 }

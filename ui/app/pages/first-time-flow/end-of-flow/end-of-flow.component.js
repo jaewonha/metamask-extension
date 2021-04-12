@@ -69,8 +69,16 @@ export default class EndOfFlowScreen extends PureComponent {
       <div className="end-of-flow">
         <MetaFoxLogo />
         {/* <div className="end-of-flow__emoji">🎉</div> */}
-        <div className="first-time-flow__header">{t('congratulations')}</div>
-        <div className="first-time-flow__text-block end-of-flow__text-1">
+        <div className="first-time-flow__header" style={{marginBottom: "0px"}}>
+          <img
+            width="236"
+            height="82"
+            src="/images/congrat.png"
+            alt=""
+          />
+          <div>{t('congratulations')}</div>
+        </div>
+        <div className="first-time-flow__text-block end-of-flow__text-1 text-light-gray">
           {t('endOfFlowMessage1')}
         </div>
         <div className="first-time-flow__text-block end-of-flow__text-2">

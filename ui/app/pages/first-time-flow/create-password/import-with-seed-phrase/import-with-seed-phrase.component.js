@@ -212,34 +212,12 @@ export default class ImportWithSeedPhrase extends PureComponent {
 
     return (
       <form className="first-time-flow__form" onSubmit={this.handleImport}>
-        <div className="first-time-flow__create-back">
-          <a
-            onClick={(e) => {
-              e.preventDefault();
-              this.context.metricsEvent({
-                eventOpts: {
-                  category: 'Onboarding',
-                  action: 'Import Seed Phrase',
-                  name: 'Go Back from Onboarding Import',
-                },
-                customVariables: {
-                  errorLabel: 'Seed Phrase Error',
-                  errorMessage: seedPhraseError,
-                },
-              });
-              this.props.history.push(INITIALIZE_SELECT_ACTION_ROUTE);
-            }}
-            href="#"
-          >
-            {`< Back`}
-          </a>
-        </div>
-        <div className="first-time-flow__header">
+        <div className="first-time-flow__header"  style={{marginBottom:"12px"}}>
           {t('importAccountSeedPhrase')}
         </div>
-        <div className="first-time-flow__text-block">{t('secretPhrase')}</div>
+        <div className="first-time-flow__text-block" style={{marginBottom:"48px", textAlign:"center"}}>{t('secretPhrase')}</div>
         <div className="first-time-flow__textarea-wrapper">
-          <label>{t('walletSeed')}</label>
+          <label className="text-light-gray text-size-sub">{t('walletSeed')}</label>
           {showSeedPhrase ? (
             <textarea
               className="first-time-flow__textarea"
@@ -334,14 +312,40 @@ export default class ImportWithSeedPhrase extends PureComponent {
           </span>
         </div>
         
-        <Button
-          type="primary"
-          submit
-          className="first-time-flow__button"
-          disabled={!this.isValid() || !termsChecked}
-        >
-          {t('import')}
-        </Button>
+        <div className="first-time-flow__buttons">
+          <Button 
+              className="first-time-flow__create-back"
+              type="primary"
+              className="first-time-flow__button first-time-flow__button_back"
+              onClick={ (e) => {
+                e.preventDefault();
+                this.context.metricsEvent({
+                  eventOpts: {
+                    category: 'Onboarding',
+                    action: 'Import Seed Phrase',
+                    name: 'Go Back from Onboarding Import',
+                  },
+                  customVariables: {
+                    errorLabel: 'Seed Phrase Error',
+                    errorMessage: seedPhraseError,
+                  },
+                });
+                this.props.history.push(INITIALIZE_SELECT_ACTION_ROUTE);
+              } }
+            >
+              {t('back')}
+          </Button>
+          
+          <Button
+            type="primary"
+            submit
+            className="first-time-flow__button"
+            disabled={!this.isValid() || !termsChecked}
+          >
+            {t('import')}
+          </Button>
+        </div>
+
       </form>
     );
   }

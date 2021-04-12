@@ -14,7 +14,8 @@
     @include H3;
 
     text-align: center;
-    margin-top: 65px;
+    //margin-top: 65px;
+    margin-top: $Medium-Page-Margin-Top;
     //color: black;
     font-weight: bold;
     color: $Medium-Blue;
@@ -45,25 +46,12 @@
       height: 44px;
     }
 
-    .medium-button {
-      color:white;      
-      background-color: $Medium-Blue;
-      border-color: $Medium-Blue;
-      font-size: 14px;
-      border-radius: 18px;
-    }
-
-    .medium-button:hover {
-      color: $Medium-Blue;
-      background-color: white;
-    }
-
     .first-time-right-button {
       align-self: flex-end;
       margin-right: 30px;
       width: 128px;
       height: 36px;
-      font-weight: lighter !important;
+      font-weight: lighter;
       font-size: 14px !important;
     }
 

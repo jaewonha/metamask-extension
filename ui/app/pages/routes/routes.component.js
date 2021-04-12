@@ -32,6 +32,8 @@ import AppHeader from '../../components/app/app-header';
 import UnlockPage from '../unlock-page';
 import Alerts from '../../components/app/alerts';
 import Asset from '../asset';
+import DEV from '../first-time-flow/end-of-flow';
+
 
 import {
   ADD_TOKEN_ROUTE,
@@ -258,6 +260,23 @@ export default class Routes extends Component {
     );
 
     return isHandlingPermissionsRequest || isHandlingAddEthereumChainRequest;
+  }
+
+  _render() {
+    return <div className={classnames('app')}>
+        <Switch>
+          <Route
+              path={'/dev'}
+              component={DEV}
+              exact
+          />
+          <Route
+              path={'/unlock'}
+              component={UnlockPage}
+              exact
+          />
+        </Switch>
+    </div>
   }
 
   render() {

@@ -139,17 +139,6 @@ class RestoreVaultPage extends Component {
       <div className="first-view-main-wrapper">
         <div className="first-view-main">
           <div className="import-account">
-            <a
-              className="import-account__back-button"
-              onClick={(e) => {
-                e.preventDefault();
-                this.props.leaveImportSeedScreenState();
-                this.props.history.goBack();
-              }}
-              href="#"
-            >
-              {`< Back`}
-            </a>
             <div className="import-account__title">
               {this.context.t('restoreAccountWithSeed')}
             </div>
@@ -229,14 +218,31 @@ class RestoreVaultPage extends Component {
               margin="normal"
               largeLabel
             />
-            <Button
-              type="first-time"
-              className="first-time-flow__button"
-              onClick={() => !disabled && this.onClick()}
-              disabled={disabled}
-            >
-              {this.context.t('restore')}
-            </Button>
+            
+            <div className="first-time-flow__buttons">
+              <Button 
+                  className="first-time-flow__create-back"
+                  type="primary"
+                  className="first-time-flow__button first-time-flow__button_back"
+                  onClick={ (e) => {
+                    e.preventDefault();
+                    this.props.leaveImportSeedScreenState();
+                    this.props.history.goBack();
+                  } }
+                >
+                  {t('back')}
+              </Button>
+              
+              <Button
+                type="primary"
+                className="first-time-flow__button"
+                onClick={() => !disabled && this.onClick()}
+                disabled={disabled}
+              >
+                {this.context.t('restore')}
+              </Button>
+            </div>
+
           </div>
         </div>
       </div>

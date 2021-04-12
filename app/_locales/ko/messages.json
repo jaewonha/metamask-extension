@@ -533,7 +533,7 @@
     "message": "암호화 공개 키 요구"
   },
   "endOfFlowMessage1": {
-    "message": "테스트를 통과하셨습니다. 시드 구문을 안전하게 보관할 책임은 귀하에게 있습니다!"
+    "message": "테스트를 통과하셨습니다.\n시드 구문을 안전하게 보관할 책임은 귀하에게 있습니다!"
   },
   "endOfFlowMessage10": {
     "message": "모두 완료"
@@ -1157,13 +1157,13 @@
     "message": "MetaMetrics에 참여하여 Medium Wallet 개선에 도움을 주세요."
   },
   "password": {
-    "message": "암호"
+    "message": "비밀번호"
   },
   "passwordNotLongEnough": {
-    "message": "암호가 짧습니다."
+    "message": "비밀번호가 짧습니다."
   },
   "passwordsDontMatch": {
-    "message": "암호가 일치하지 않습니다."
+    "message": "비밀번호가 일치하지 않습니다."
   },
   "pastePrivateKey": {
     "message": "여기에 비공개 키 문자열을 붙여넣으세요.",
@@ -1368,10 +1368,10 @@
     "message": "비밀 백업 구문을 이용하면 계정을 쉽게 백업하고 복구할 수 있습니다."
   },
   "secretBackupPhraseWarning": {
-    "message": "경고: 백업 구문은 절대로 공개하지 마세요. 이 구문이 있는 사람은 귀하의 Ether를 영원히 소유할 수 있습니다."
+    "message": "백업 구문은 절대로 공개하지 마세요. 이 구문이 있는 사람은 귀하의 Ether를 영원히 소유할 수 있습니다."
   },
   "secretPhrase": {
-    "message": "12개 단어로 구성된 비밀 구문을 입력하여 저장소를 복구하세요."
+    "message": "금고를 복구하려면 비밀 12단어 구문을 여기에 입력하세요"
   },
   "securityAndPrivacy": {
     "message": "보안 및 개인정보 보호"
@@ -1383,7 +1383,7 @@
     "message": "공백 한 칸으로 각 단어를 구분하세요"
   },
   "seedPhrasePlaceholderPaste": {
-    "message": "Paste seed phrase from clipboard"
+    "message": "클립보드에서 구문 붙여넣기"
   },
   "seedPhraseReq": {
     "message": "시드 구문에 12, 15, 18, 21 또는 24단어 포함"
@@ -1474,7 +1474,7 @@
     "message": "비공개 키 표시"
   },
   "showSeedPhrase": {
-    "message": "Show seed phrase"
+    "message": "시드 구문 표시"
   },
   "sigRequest": {
     "message": "서명 요청"
@@ -2005,7 +2005,7 @@
     "message": "잠금 해제"
   },
   "unlockMessage": {
-    "message": "우리가 기다리던 탈 중앙화 웹입니다"
+    "message": "분산된 웹이 다음을 대기 중"
   },
   "updatedWithDate": {
     "message": "$1에 업데이트됨"
@@ -2060,7 +2060,7 @@
     "message": "환영합니다!"
   },
   "welcomeBack": {
-    "message": "환영합니다!"
+    "message": "재 방문을 환영합니다!"
   },
   "whatsThis": {
     "message": "이것은 무엇인가요?"
@@ -2095,5 +2095,8 @@
   },
   "medium": {
     "message": "미디움"
+  },
+  "warning": {
+    "message": "경고"
   }
 }

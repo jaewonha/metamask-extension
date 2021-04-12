@@ -1,7 +1,8 @@
 import { EventEmitter } from 'events';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Button from '@material-ui/core/Button';
+//import Button from '@material-ui/core/Button';
+import Button from '../../components/ui/button';
 import getCaretCoordinates from 'textarea-caret';
 import TextField from '../../components/ui/text-field';
 import Mascot from '../../components/ui/mascot';
@@ -109,26 +110,23 @@ export default class UnlockPage extends Component {
   }
 
   renderSubmitButton() {
-    const style = {
-      backgroundColor: '#074396',
-      color: 'white',
-      marginTop: '20px',
-      height: '60px',
-      fontWeight: '400',
-      boxShadow: 'none',
-      borderRadius: '4px',
-    };
+    // const style = {
+    //   backgroundColor: '#074396',
+    //   color: 'white',
+    //   marginTop: '20px',
+    //   height: '60px',
+    //   fontWeight: '400',
+    //   boxShadow: 'none',
+    //   borderRadius: '4px',
+    // };
 
     return (
       <Button
-        type="submit"
-        style={style}
+        type="primary"  
+        className="unlock-page__button"  
+        // style={style}
         disabled={!this.state.password}
-        fullWidth
-        variant="contained"
-        size="large"
         onClick={this.handleSubmit}
-        disableRipple
       >
         {this.context.t('unlock')}
       </Button>
@@ -145,6 +143,7 @@ export default class UnlockPage extends Component {
         <div className="unlock-page">
           <div className="unlock-page__mascot-container">
             <img
+              className="logo"
               width="120"
               height="120"
               src="./images/wallet.svg"
@@ -157,27 +156,30 @@ export default class UnlockPage extends Component {
             /> */}
           </div>
           <h1 className="unlock-page__title">{t('welcomeBack')}</h1>
-          <div>{t('unlockMessage')}</div>
+          <div className="unlock-page__desc text-light-gray" style={{marginTop:"12px"}}>{t('unlockMessage')}</div>
           <form className="unlock-page__form" onSubmit={this.handleSubmit}>
             <TextField
               id="password"
-              label={t('password')}
+              placeholder={t('password')}
               type="password"
+              className="unlock-page__input"
               value={password}
               onChange={(event) => this.handleInputChange(event)}
               error={error}
               autoFocus
               autoComplete="current-password"
-              theme="material"
+              margin="normal"
               fullWidth
+              largeLabel
             />
           </form>
           {this.renderSubmitButton()}
           <div className="unlock-page__links">
-            <button className="unlock-page__link" onClick={() => onRestore()}>
+            <button className="unlock-page__link text-light-gray" onClick={() => onRestore()}>
               {t('restoreFromSeed')}
             </button>
             <button
+              style={{marginTop:"12px"}}
               className="unlock-page__link unlock-page__link--import"
               onClick={() => onImport()}
             >
