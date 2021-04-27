@@ -334,8 +334,7 @@ export default class Home extends PureComponent {
               onTabClick={onTabClick}
               tabsClassName="home__tabs"
             >
-              <>
-              {/* <Tab
+              <Tab
                 activeClassName="home__tab--active"
                 className="home__tab"
                 data-testid="home__asset-tab"
@@ -354,8 +353,7 @@ export default class Home extends PureComponent {
                 name={t('activity')}
               >
                 <TransactionList />
-              </Tab> */}
-              </>
+              </Tab>
             </Tabs>
           </div>
           {this.renderNotifications()}

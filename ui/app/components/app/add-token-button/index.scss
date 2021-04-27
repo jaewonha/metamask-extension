@@ -1,6 +1,30 @@
 .add-token-button {
   &__button {
-    max-width: 200px;
+    //max-width: 200px;
+    height: 36px;
     margin: 16px auto;
   }
+
+  .button {
+    width: 102px;
+    background-color: $Medium-SkyBlue;
+    border-color: $Medium-SkyBlue;
+    border-radius: 18px;
+    color:white;
+    font-size: 14px;
+  }
+
+  .btn--rounded.btn-secondary {
+    border: 1px solid $Medium-SkyBlue;
+  }
+
+  .btn--rounded:hover {
+    background-color: white;
+    color: $Medium-SkyBlue
+  }
+  .btn-secondary:active {
+    background-color: white;
+    color: $Medium-SkyBlue
+  }
+
 }

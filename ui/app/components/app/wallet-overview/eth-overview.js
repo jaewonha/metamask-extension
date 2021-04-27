@@ -164,7 +164,10 @@ const EthOverview = ({ className }) => {
         </>
       }
       className={className}
-      icon={<Identicon diameter={32} />}
+      icon={
+        <div></div>
+        // <Identicon diameter={32} />
+      }
     />
   );
 };

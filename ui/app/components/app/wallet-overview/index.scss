@@ -56,9 +56,13 @@
   &__primary-balance {
     @include H2;
 
-    color: $black;
+    color: $Medium-Blue;
     width: 100%;
     justify-content: center;
+
+    .currency-display-component__suffix {
+      font-weight: lighter;
+    }
   }
 
   &__cached-star {
@@ -94,11 +98,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 36px;
-    width: 36px;
-    background: #037dd6;
-    border-radius: 18px;
+    // height: 36px;
+    // width: 36px;
+    // background: #037dd6;
+    //border-radius: 18px;
     margin-top: 6px;
+    width: 86px;
+    height: 74px;
   }
 }
 

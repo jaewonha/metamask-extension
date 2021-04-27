@@ -29,6 +29,7 @@ $sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (ma
   flex: 1 0 auto;
   min-height: 0;
   width: 100%;
+  background-color: $Grey-000;
 }
 
 // main-container media queries

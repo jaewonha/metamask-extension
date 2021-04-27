@@ -3,8 +3,14 @@
 // See https://bit.ly/32mnoja (link to figma design system)
 $Medium-Blue: #004098;
 $Medium-light-gray: #787878;
+$Medium-bg-gray: #F9F9F9;
 $Medium-Warn: #F22929;
 $Medium-Orange: rgb(253,120,78);
+$Medium-SkyBlue: #06A4D5;
+
+//for below, manually update deprecated-colors.scss (copy & pasted due to scss duplicate import issus)
+$Medium-text-black: #404040;
+$Medium-text-gray: #787878;
 
 $Blue-000: #eaf6ff;
 $Blue-100: #a7d9fe;
@@ -20,7 +26,8 @@ $Blue-700: #024272;
 $Blue-800: #01253f;
 $Blue-900: #00080d;
 
-$Grey-000: #f2f3f4;
+//$Grey-000: #f2f3f4;
+$Grey-000: $Medium-bg-gray;
 $Grey-100: #d6d9dc;
 $Grey-200: #bbc0c5;
 $Grey-300: #9fa6ae;
