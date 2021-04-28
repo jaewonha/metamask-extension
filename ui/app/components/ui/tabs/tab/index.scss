@@ -7,12 +7,15 @@
     display: block;
     width: 100%;
     background-color: unset;
-    font-size: unset;
-    color: unset;
+    //font-size: unset;
+    //color: unset;
+    font-size: 18px;
+    color: inherit;
   }
 
   &--active {
     color: $black;
     border-bottom: 2px solid $primary-blue;
+    color: $Medium-Blue;
   }
 }

@@ -45,7 +45,7 @@ export default function MenuBar() {
       <SelectedAccount />
 
       <button
-        className="fas fa-ellipsis-v menu-bar__account-options"
+        className="fas fa-ellipsis-v_not_use menu-bar__account-options"
         data-testid="account-options-menu-button"
         ref={setAccountOptionsButtonElement}
         title={t('accountOptions')}
@@ -53,7 +53,13 @@ export default function MenuBar() {
           openAccountOptionsEvent();
           setAccountOptionsMenuOpen(true);
         }}
-      />
+      >
+        <img
+          width="6px"
+          height="24px"
+          src="/images/icons/vertical-dots.svg"
+          />
+      </button>
 
       {accountOptionsMenuOpen && (
         <AccountOptionsMenu

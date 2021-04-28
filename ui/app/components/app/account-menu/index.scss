@@ -2,12 +2,17 @@
   position: fixed;
   z-index: 100;
   top: 58px;
-  width: 320px;
-  border-radius: 4px;
-  background: rgba($black, 0.8);
-  box-shadow: rgba($black, 0.15) 0 2px 2px 2px;
+  //width: 320px;
+  width: 152px;
+  border: 1px solid $Medium-line-light-gray;
+  border-radius: 10px;
+  //background: rgba($black, 0.8);
+  //box-shadow: rgba($black, 0.15) 0 2px 2px 2px;
   min-width: 150px;
-  color: $white;
+  //color: $white;
+  color: $Medium-light-gray;
+  font-size: 14px;
+  background-color: white;
 
   @media screen and (max-width: 575px) {
     right: calc(((100vw - 100%) / 2) + 8px);
@@ -26,7 +31,7 @@
   }
 
   &__item {
-    padding: 18px;
+    padding: 9px 17px 9px 17px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -67,7 +72,8 @@
   }
 
   &__divider {
-    background-color: $scorpion;
+    //background-color: $scorpion;
+    background-color: $Medium-line-light-gray;
     width: 100%;
     height: 1px;
   }
@@ -100,11 +106,25 @@
   &__lock-button {
     @include H7;
 
-    border: 1px solid $dusty-gray;
-    background-color: transparent;
+    //border: 1px solid $dusty-gray;
+    //background-color: transparent;
+    //color: $white;
+    //border-radius: 4px;
+    //padding: 3.5px 24px;
+
+    width: 42px;
+    height: 24px;
+    border-radius: 18px;
+
+    font-size: 14px;
     color: $white;
-    border-radius: 4px;
-    padding: 3.5px 24px;
+    background-color: $Medium-SkyBlue;
+    border: 1px solid $Medium-SkyBlue;
+  }
+
+  &__lock-button:hover {
+    color: $Medium-SkyBlue;
+    background-color: white;
   }
 
   &__item-icon {
@@ -213,18 +233,22 @@
   }
 
   .identicon {
-    margin: 0 12px 0 0;
+    margin: 0 8px 0 0;
     flex: 0 0 auto;
   }
 
   &__name {
     @include H4;
 
-    color: $white;
+    color: $Medium-Blue;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     max-width: 200px;
+
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 16px;
   }
 
   &__balance {

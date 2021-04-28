@@ -193,10 +193,10 @@ export default class AccountMenu extends Component {
           }}
           key={identity.address}
         >
-          <div className="account-menu__check-mark">
+          {/* <div className="account-menu__check-mark">
             {isSelected && <div className="account-menu__check-mark-icon" />}
-          </div>
-          <Identicon address={identity.address} diameter={24} />
+          </div> */}
+          <Identicon address={identity.address} diameter={26} />
           <div className="account-menu__account-info">
             <div className="account-menu__name">{identity.name || ''}</div>
             <UserPreferencedCurrencyDisplay
