@@ -19,15 +19,17 @@
     overflow: hidden;
     white-space: nowrap;
     text-align: center;
-    margin-bottom: 4px;
+    margin-bottom: 1px;
 
-    
+    color: $Medium-text-black;
+    font-size: 18px;    
   }
 
   &__address {
     @include H7;
 
-    color: #989a9b;
+    color: $Medium-light-gray;
+    font-size: 14px;
   }
 
   &__clickable {
