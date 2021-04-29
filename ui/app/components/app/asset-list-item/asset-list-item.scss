@@ -22,7 +22,15 @@
   }
 
   &__chevron-right {
-    color: $Grey-500;
+    //color: $Grey-500;
+    border: 1px solid $Medium-Blue;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    line-height: 32px !important;
+    color: $Medium-Blue;
+    padding-right: 9.5px;
+    font-size: 14px;
   }
 
   .list-item__right-content {
@@ -32,7 +40,8 @@
   .list-item__subheading {
     @include H6;
 
-    margin-top: 6px;
+    //margin-top: 6px;
+    margin-top: 2px;
   }
 
   &__warning {
