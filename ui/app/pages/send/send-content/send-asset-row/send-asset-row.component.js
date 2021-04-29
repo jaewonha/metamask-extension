@@ -60,7 +60,7 @@ export default class SendAssetRow extends Component {
     const { t } = this.context;
 
     return (
-      <SendRowWrapper label={`${t('asset')}:`}>
+      <SendRowWrapper label={`${t('asset')}`}>
         <div className="send-v2__asset-dropdown">
           {this.renderSendToken()}
           {this.props.tokens.length > 0 ? this.renderAssetDropdown() : null}

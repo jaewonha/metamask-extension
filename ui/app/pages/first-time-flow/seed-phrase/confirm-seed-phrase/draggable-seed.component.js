@@ -54,7 +54,8 @@ class DraggableSeed extends Component {
             'btn-secondary notranslate confirm-seed-phrase__seed-word',
             className,
             {
-              'confirm-seed-phrase__seed-word--selected btn-primary': selected,
+              //'confirm-seed-phrase__seed-word--selected btn-primary': selected,
+              'confirm-seed-phrase__seed-word--selected': selected,
               'confirm-seed-phrase__seed-word--dragging': isDragging,
               'confirm-seed-phrase__seed-word--empty': !word,
               'confirm-seed-phrase__seed-word--active-drop': !isOver && canDrop,

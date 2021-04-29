@@ -166,7 +166,7 @@ export default class SendGasRow extends Component {
     return (
       <>
         <SendRowWrapper
-          label={`${this.context.t('transactionFee')}:`}
+          label={`${this.context.t('transactionFee')}`}
           showError={gasFeeError}
           errorType="gasFee"
         >

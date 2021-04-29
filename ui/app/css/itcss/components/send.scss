@@ -523,6 +523,7 @@
 
   &__error-amount {
     margin-top: 5px;
+    padding-left: 10px;
   }
 
   &__warning {
@@ -552,24 +553,28 @@
   }
 
   &__form-row {
-    margin: 1rem 1rem 0;
+    margin: 1rem 30px;
     position: relative;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     flex: 1 0 auto;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
   }
 
   &__form-field-container {
     display: flex;
     flex-direction: column;
-    width: 277px;
+    //width: 277px;
+    width: 100%;
   }
 
   &__form-field {
     flex: 1 1 auto;
     min-width: 0;
+    width: 100%;
+
+    @extend .medium-subtitle;
 
     .currency-display {
       color: $tundora;
@@ -597,6 +602,12 @@
     color: $scorpion;
     width: 95px;
     flex: 0 0 auto;
+
+    @extend .medium-subtitle;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
   }
 
   &__from-dropdown,
@@ -679,9 +690,20 @@
 
     &__asset-data {
       display: flex;
-      flex-flow: column nowrap;
+      flex-flow: row nowrap;
       margin-left: 8px;
       flex-grow: 1;
+      align-items: center;
+      margin-bottom: 2px;
+
+      .send-v2__asset-dropdown__symbol {
+        margin-bottom: 0px;
+      }
+
+      .send-v2__asset-dropdown__name {
+        font-size: 14px;
+        margin-left: 10px;
+      }
     }
 
     &__symbol {
@@ -727,8 +749,8 @@
     }
 
     &__input-wrapper {
-      border: 1px solid $alto;
-      border-radius: 4px;
+      border: 1px solid $Medium-LightGray;
+      border-radius: 10px;
       height: 100%;
 
       &--opened {
@@ -739,9 +761,9 @@
       .send-v2__asset-dropdown__asset {
         height: 100%;
 
-        &:hover {
-          background-color: $white;
-        }
+        // &:hover {
+        //   background-color: $white;
+        // }
       }
     }
 
@@ -784,7 +806,7 @@
     display: inline-block;
     width: 56px;
     height: 20px;
-    margin-top: 5px;
+    //margin-top: 5px;
 
     &__button {
       width: 56px;
@@ -806,6 +828,9 @@
         color: #b0d7f2;
         cursor: auto;
       }
+
+      margin-left: 5px;
+      width: 32px;
     }
 
     input:checked + &__button {

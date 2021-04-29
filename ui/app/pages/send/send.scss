@@ -27,7 +27,7 @@
   }
 
   &__dialog {
-    margin: 1rem;
+    margin: 0 30px;
     cursor: pointer;
   }
 
@@ -40,7 +40,7 @@
     padding: 2px 30px;
     flex: 0 0 auto;
     background-color: white;
-    //border-bottom: 1px solid $alto;
+    border-bottom: 1px solid $Medium-LightGray;
   }
 
   &__select-recipient-wrapper {
@@ -164,9 +164,9 @@
     width: 0;
     align-items: center;
     background: $white;
-    border-radius: 0.5rem;
+    border-radius: 10px;
     padding: 16px;
-    border: 1px solid $Grey-100;
+    border: 1px solid $Medium-SkyBlue;
     transition: border-color 150ms ease-in-out;
 
     height: 56px;
@@ -230,7 +230,7 @@
     }
 
     &--valid {
-      border-color: $Blue-500;
+      border-color: $Medium-SkyBlue;
 
       .ens-input__wrapper {
         &__status-icon {
@@ -242,7 +242,8 @@
 
           @include H7;
 
-          color: $Blue-500;
+          border-color: $Medium-SkyBlue;
+          margin-left: 6px;
         }
       }
     }

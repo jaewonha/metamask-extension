@@ -132,12 +132,14 @@ export default class ConfirmSeedPhrase extends PureComponent {
 
     return (
       <div className="confirm-seed-phrase">
+
         <div className="first-time-flow__header">
           {t('confirmSecretBackupPhrase')}
         </div>
         <div className="first-time-flow__text-block text-light-gray">
           {t('selectEachPhrase')}
         </div>
+        
         <div
           className={classnames('confirm-seed-phrase__selected-seed-words', {
             'confirm-seed-phrase__selected-seed-words--dragging':
@@ -147,6 +149,7 @@ export default class ConfirmSeedPhrase extends PureComponent {
           {this.renderPendingSeeds()}
           {this.renderSelectedSeeds()}
         </div>
+
         <div
           className="confirm-seed-phrase__sorted-seed-words"
           data-testid="seed-phrase-sorted"

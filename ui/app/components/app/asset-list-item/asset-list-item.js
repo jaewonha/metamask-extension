@@ -76,7 +76,7 @@ const AssetListItem = ({
           history.push(SEND_ROUTE);
         }}
       >
-        {t('sendSpecifiedTokens', [tokenSymbol])}
+        {/* {t('sendSpecifiedTokens', [tokenSymbol])} */}
       </Button>
     );
   }, [

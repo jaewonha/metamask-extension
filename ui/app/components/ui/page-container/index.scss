@@ -59,8 +59,8 @@
   &__footer {
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    border-top: 1px solid $geyser;
+    justify-content: flex-end;
+    //border-top: 1px solid $geyser;
     flex: 0 0 auto;
 
     footer {
@@ -96,6 +96,19 @@
     &:last-of-type {
       margin-right: 0;
     }
+
+    height: 36px;
+  }
+
+  button[data-testid="page-container-footer-cancel"] {
+    background-color: transparent;
+    border: unset;
+    color: #787878;
+    width: 80px;  
+  }
+
+  button[data-testid="page-container-footer-next"] {
+    width: 100px;
   }
 
   &__back-button {

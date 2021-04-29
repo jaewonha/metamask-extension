@@ -253,6 +253,7 @@ export default class EnsInput extends Component {
       <div className={classnames('ens-input', className)}>
         <div className="ens-input__wrapper ens-input__wrapper--valid">
           {/* <div className="ens-input__wrapper__status-icon ens-input__wrapper__status-icon--valid" /> */}
+          <img width="26px" height="26px" src="/images/icons/address-ok.svg" />
           <div
             className="ens-input__wrapper__input ens-input__wrapper__input--selected"
             placeholder={t('recipientAddress')}
@@ -268,9 +269,11 @@ export default class EnsInput extends Component {
             )}
           </div>
           <div
-            className="ens-input__wrapper__action-icon ens-input__wrapper__action-icon--erase"
+            className="ens-input__wrapper__action-icon ens-input__wrapper__action-icon--erase_not_use"
             onClick={this.resetInput}
-          />
+          >
+            <img width="19px" height="19px" style={{paddingTop:"5px"}} src="/images/icons/close.svg" />
+          </div>
         </div>
       </div>
     );

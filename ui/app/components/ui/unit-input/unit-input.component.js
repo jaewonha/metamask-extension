@@ -73,7 +73,10 @@ export default class UnitInput extends PureComponent {
 
     return (
       <div
-        className={classnames('unit-input', { 'unit-input--error': error })}
+        className={classnames('unit-input', 
+          'send-v2__asset-dropdown__input-wrapper',  //added
+          { 'unit-input--error': error })
+        }
         onClick={this.handleFocus}
       >
         <div className="unit-input__inputs">

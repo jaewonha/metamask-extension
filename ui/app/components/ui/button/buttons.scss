@@ -14,7 +14,7 @@ $warning-light-orange: #f8b588;
 .button {
   @include H6;
 
-  font-weight: 500;
+  //font-weight: 500;
   padding: 0.75rem 1rem;
   display: flex;
   justify-content: center;
@@ -40,17 +40,17 @@ $warning-light-orange: #f8b588;
 }
 
 .btn-secondary {
-  color: $Blue-500;
-  border: 1px solid $hover-secondary;
-  background-color: $white;
+  color: $Blue-500 ;
+  border: 1px solid $hover-secondary ;
+  background-color: $white ;
 
   &:hover {
-    border-color: $Blue-500;
+    border-color: $Blue-500 ;
   }
 
   &:active {
-    background: $Blue-000;
-    border-color: $Blue-500;
+    background: $Blue-000 ;
+    border-color: $Blue-500 ;
   }
 
   &--disabled,
@@ -162,7 +162,7 @@ $warning-light-orange: #f8b588;
     border: 1px solid $Blue-500;
     color: $Medium-Blue;
     background-color: white;
-    font-weight: bold !important;
+    //font-weight: bold !important;
   }
 
   &:active {
