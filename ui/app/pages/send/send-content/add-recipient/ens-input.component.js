@@ -202,13 +202,14 @@ export default class EnsInput extends Component {
 
     return (
       <div className={classnames('ens-input', className)}>
+        <div className="medium-subtitle">{t('search')}</div>
         <div
           className={classnames('ens-input__wrapper', {
             'ens-input__wrapper__status-icon--error': false,
             'ens-input__wrapper__status-icon--valid': false,
           })}
         >
-          <div className="ens-input__wrapper__status-icon" />
+          {/* <div className="ens-input__wrapper__status-icon" /> */}
           <input
             className="ens-input__wrapper__input"
             type="text"
@@ -251,7 +252,7 @@ export default class EnsInput extends Component {
     return (
       <div className={classnames('ens-input', className)}>
         <div className="ens-input__wrapper ens-input__wrapper--valid">
-          <div className="ens-input__wrapper__status-icon ens-input__wrapper__status-icon--valid" />
+          {/* <div className="ens-input__wrapper__status-icon ens-input__wrapper__status-icon--valid" /> */}
           <div
             className="ens-input__wrapper__input ens-input__wrapper__input--selected"
             placeholder={t('recipientAddress')}

@@ -1,17 +1,35 @@
 // These are the colors of the MetaMask design system
 // Only design system colors should be added, no superfluous variables
 // See https://bit.ly/32mnoja (link to figma design system)
+
+//medium colors
+//!fixme: some colors are copy-pasted at deprecated-colors.scss (import issue)
+$Medium-Black: #404040;
 $Medium-Blue: #004098;
-$Medium-light-gray: #787878;
-$Medium-bg-gray: #F9F9F9;
+$Medium-Gray: #787878;
+$Medium-LightGray: #B4B4B4;
 $Medium-Warn: #F22929;
 $Medium-Orange: rgb(253,120,78);
 $Medium-SkyBlue: #06A4D5;
 
-//for below, manually update deprecated-colors.scss (copy & pasted due to scss duplicate import issus)
-$Medium-text-black: #404040;
-$Medium-text-gray: #787878;
-$Medium-line-light-gray: #B4B4B4;
+$Medium-bg-gray: #F9F9F9;
+
+//Medium Typography Styles
+//!fixme: move to another scss file
+.medium-title {
+  font-size: 18px !important;
+  color: $Medium-Black !important;
+}
+
+.medium-subtitle {
+  font-size: 14px !important;
+  color: $Medium-Gray !important;
+}
+
+.medium-placeholder {
+  font-size: 14px !important;
+  color: $Medium-LightGray !important;
+}
 
 $Blue-000: #eaf6ff;
 $Blue-100: #a7d9fe;

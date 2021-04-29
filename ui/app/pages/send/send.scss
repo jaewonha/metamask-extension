@@ -5,9 +5,10 @@
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: $Grey-000;
+    background-color: white;
     border-bottom: none;
     padding: 14px 0 3px 0;
+    margin: 5px 0 16px 0;
 
     .page-container__title {
       @include H4;
@@ -36,10 +37,10 @@
 
   &__to-row {
     margin: 0;
-    padding: 0.5rem;
+    padding: 2px 30px;
     flex: 0 0 auto;
-    background-color: $Grey-000;
-    border-bottom: 1px solid $alto;
+    background-color: white;
+    //border-bottom: 1px solid $alto;
   }
 
   &__select-recipient-wrapper {
@@ -98,9 +99,9 @@
     &__group-label {
       @include H8;
 
-      background-color: $Grey-000;
+      background-color: white;
       color: $Grey-600;
-      padding: 0.5rem 1rem;
+      padding: 0.5rem 30px;
       border-bottom: 1px solid $alto;
 
       &:first-of-type {
@@ -112,7 +113,7 @@
     &__group-item--selected {
       @extend %row-nowrap;
 
-      padding: 0.75rem 1rem;
+      padding: 0.75rem 30px;
       align-items: center;
       border-bottom: 1px solid $alto;
       cursor: pointer;
@@ -154,7 +155,7 @@
 }
 
 .ens-input {
-  @extend %row-nowrap;
+  @extend %col-nowrap;
 
   &__wrapper {
     @extend %row-nowrap;
@@ -164,9 +165,13 @@
     align-items: center;
     background: $white;
     border-radius: 0.5rem;
-    padding: 0.75rem 0.5rem;
+    padding: 16px;
     border: 1px solid $Grey-100;
     transition: border-color 150ms ease-in-out;
+
+    height: 56px;
+    margin: 5px 0 15px 0;
+    width: 100%;
 
     &:focus-within {
       border-color: $Grey-500;
@@ -218,8 +223,8 @@
       &--qrcode {
         background-image: url("/images/qr-blue.svg");
         background-color: unset;
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 30px;
+        height: 30px;
         margin: 0 0.25rem;
       }
     }

@@ -21,14 +21,14 @@
     text-align: center;
     margin-bottom: 1px;
 
-    color: $Medium-text-black;
+    color: $Medium-Black;
     font-size: 18px;    
   }
 
   &__address {
     @include H7;
 
-    color: $Medium-light-gray;
+    color: $Medium-Gray;
     font-size: 14px;
   }
 

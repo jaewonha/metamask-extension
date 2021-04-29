@@ -64,11 +64,21 @@ export default class PageContainerHeader extends Component {
       >
         {this.renderHeaderRow()}
 
+        { onClose &&
+          <Button
+            type="link"
+            className="page-container__header-close-text"
+            onClick={() => onClose()}
+          >
+            <img width="19" height="19" src="/images/icons/close.svg" />
+          </Button>
+        }
+
         {title && <div className="page-container__title">{title}</div>}
 
         {subtitle && <div className="page-container__subtitle">{subtitle}</div>}
 
-        {onClose && headerCloseText ? (
+        {/* {onClose && headerCloseText && false ? (
           <Button
             type="link"
             className="page-container__header-close-text"
@@ -83,7 +93,7 @@ export default class PageContainerHeader extends Component {
               onClick={() => onClose()}
             />
           )
-        )}
+        )} */}
 
         {this.renderTabs()}
       </div>

@@ -114,7 +114,7 @@ div.MuiFormControl-root {
   &__selector-label {
     @include Paragraph;
 
-    color: $Medium-light-gray;
+    color: $Medium-Gray;
     font-size: 14px;
     text-align: center;
   }
@@ -167,7 +167,7 @@ div.MuiFormControl-root {
     //margin-left: 18px;
 
     font-size: 14px !important;
-    color: $Medium-light-gray;
+    color: $Medium-Gray;
     margin-left: 4px;
   }
 

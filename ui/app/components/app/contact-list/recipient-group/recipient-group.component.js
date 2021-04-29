@@ -21,7 +21,7 @@ export default function RecipientGroup({
   return (
     <div className="send__select-recipient-wrapper__group">
       {label && (
-        <div className="send__select-recipient-wrapper__group-label">
+        <div className="medium-subtitle send__select-recipient-wrapper__group-label">
           {label}
         </div>
       )}
