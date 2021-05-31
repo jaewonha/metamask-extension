@@ -23,14 +23,14 @@ const PROVIDER = '_metamask-provider';
 
 
 console.warn(
-  `metamask-controller.js:PROVIDER:99:"${PROVIDER}"`
+  `metamask-controller.js:PROVIDER:cc:"${PROVIDER}"`
 )
 
 
 // TODO:LegacyProvider: Delete
-const LEGACY_CONTENT_SCRIPT = 'contentscript';
-const LEGACY_INPAGE = 'inpage';
-const LEGACY_PROVIDER = 'provider';
+const LEGACY_CONTENT_SCRIPT = '_contentscript';
+const LEGACY_INPAGE = '_inpage';
+const LEGACY_PROVIDER = '_provider';
 const LEGACY_PUBLIC_CONFIG = 'publicConfig';
 
 if (shouldInjectProvider()) {
