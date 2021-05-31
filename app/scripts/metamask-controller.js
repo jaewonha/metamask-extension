@@ -1934,7 +1934,8 @@ export default class MetamaskController extends EventEmitter {
     const mux = setupMultiplex(connectionStream);
 
     // messages between inpage and background
-    this.setupProviderConnection(mux.createStream('metamask-provider'), sender);
+    console.warn('##debug:metamask-provider:3rd point')
+    this.setupProviderConnection(mux.createStream('_metamask-provider'), sender);
 
     // TODO:LegacyProvider: Delete
     // legacy streams
