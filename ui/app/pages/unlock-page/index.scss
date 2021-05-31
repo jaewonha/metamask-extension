@@ -23,7 +23,12 @@
   &__title {
     @include H2;
 
-    margin-top: 5px;
+    margin-top: $Medium-Page-Margin-Top-Under-Logo;
+
+    @media screen and (max-width: 575px) {
+      margin-top: 15px;
+    }
+
     font-weight: 800;
     color: $tundora;
 

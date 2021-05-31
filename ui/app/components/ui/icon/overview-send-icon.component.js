@@ -11,7 +11,10 @@ export default function SwapIcon({
       width={width} //86
       height={height} //75
       src="/images/icons/coin-send.png"
+      onMouseOver={e => (e.currentTarget.src = "/images/icons/coin-send-pr.png")}
+      onMouseOut={e => (e.currentTarget.src = "/images/icons/coin-send.png")}
     />;
+
   // return (
   //   <svg
   //     width={width}

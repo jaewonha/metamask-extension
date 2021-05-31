@@ -146,7 +146,7 @@ export default class NewAccount extends PureComponent {
 
     return (
       <div className="first-time-flow-wrapper">
-        <div className="first-time-flow__header">{t('createPassword')}</div>
+        <div className="first-time-flow__header long-header">{t('createPassword')}</div>
         <form className="first-time-flow__form" onSubmit={this.handleCreate}>
           <TextField
             id="create-password"

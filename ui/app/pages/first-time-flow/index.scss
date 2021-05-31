@@ -37,6 +37,10 @@
         margin-bottom: 0;
       }
     }
+
+    .long-header {
+      margin-top: $Medium-Page-Margin-Top !important;
+    }
   }
 
   &__form {
@@ -57,7 +61,7 @@
 
     //margin-bottom: 24px;
 
-    margin-top: 100px;
+    margin-top: $Medium-Page-Margin-Top-Under-Logo;
     margin-bottom: 40px;
     text-align: center;
 

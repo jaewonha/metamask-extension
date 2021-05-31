@@ -61,13 +61,13 @@ export default class SelectAction extends PureComponent {
                     </div>
                     <div className="select-action__button-text-small">
                       {t('importYourExisting')}
-                    </div>                  
+                    </div>                 
                   </div>
                 </div>
 
                 <Button
                   type="primary"
-                  className="first-time-flow__button medium-button first-time-right-button"
+                  className="first-time-flow__button first-time-right-button"
                   onClick={this.handleImport}
                 >
                   {t('importWallet')}
@@ -94,7 +94,7 @@ export default class SelectAction extends PureComponent {
 
                 <Button
                   type="primary"
-                  className="first-time-flow__button medium-button first-time-right-button"
+                  className="first-time-flow__button first-time-right-button"
                   onClick={this.handleCreate}
                 >
                   {t('createAWallet')}
