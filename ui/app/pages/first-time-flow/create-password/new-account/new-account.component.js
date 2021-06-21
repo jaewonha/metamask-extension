@@ -69,6 +69,18 @@ export default class NewAccount extends PureComponent {
     });
   }
 
+  keyPress(event) {
+    if (event.keyCode === 13 && event.target.nodeName === "INPUT") {
+      var form = event.target.form;
+      var index = Array.prototype.indexOf.call(form, event.target);
+      console.log('index:', index)
+      if(index==0 && document.getElementById('create-password').value.length>0) {
+          form.elements[index + 1].focus();
+      } 
+      event.preventDefault();
+    }
+  }
+
   handleConfirmPasswordChange(confirmPassword) {
     const { t } = this.context;
 
@@ -155,6 +167,7 @@ export default class NewAccount extends PureComponent {
             className="first-time-flow__input"
             value={password}
             onChange={(event) => this.handlePasswordChange(event.target.value)}
+            onKeyDown={this.keyPress}
             error={passwordError}
             autoFocus
             autoComplete="new-password"
@@ -171,6 +184,7 @@ export default class NewAccount extends PureComponent {
             onChange={(event) =>
               this.handleConfirmPasswordChange(event.target.value)
             }
+            onKeyDown={this.keyPress}
             error={confirmPasswordError}
             autoComplete="confirm-password"
             margin="normal"

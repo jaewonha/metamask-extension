@@ -30,6 +30,7 @@ async function start() {
   const windowType = getEnvironmentType();
 
   // setup stream to background
+  log.warn('extension.runtime.connect:windowType:', windowType);
   const extensionPort = extension.runtime.connect({ name: windowType });
   const connectionStream = new PortStream(extensionPort);
 
