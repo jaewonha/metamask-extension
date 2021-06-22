@@ -468,16 +468,17 @@ export default class AdvancedTab extends PureComponent {
     return (
       <div className="settings-page__body">
         {warning && <div className="settings-tab__error">{warning}</div>}
-        {this.renderStateLogs()}
-        {this.renderMobileSync()}
+        {/* setting - advance */}
+        {/* {this.renderStateLogs()}
+        {this.renderMobileSync()} */}
         {this.renderResetAccount()}
-        {this.renderAdvancedGasInputInline()}
+        {/* {this.renderAdvancedGasInputInline()}
         {this.renderHexDataOptIn()}
         {this.renderShowConversionInTestnets()}
-        {this.renderUseNonceOptIn()}
+        {this.renderUseNonceOptIn()} */}
         {this.renderAutoLockTimeLimit()}
-        {this.renderThreeBoxControl()}
-        {this.renderIpfsGatewayControl()}
+        {/* {this.renderThreeBoxControl()}
+        {this.renderIpfsGatewayControl()} */}
       </div>
     );
   }

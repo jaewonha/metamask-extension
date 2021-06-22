@@ -182,6 +182,8 @@ export default class ChooseAccount extends Component {
             </Tooltip>
           </div>
         ) : null}
+
+        {/* remove add account
         <div
           className="permissions-connect-choose-account__text-blue"
           onClick={() =>
@@ -189,7 +191,7 @@ export default class ChooseAccount extends Component {
           }
         >
           {this.context.t('newAccount')}
-        </div>
+        </div> */}
       </div>
     );
   }

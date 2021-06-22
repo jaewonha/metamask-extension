@@ -51,7 +51,9 @@ export default class InfoTab extends PureComponent {
           </Button>
         </div>
         <hr className="info-tab__separator" />
-        <div className="info-tab__link-item">
+
+
+        {/* <div className="info-tab__link-item">
           <Button
             type="link"
             href="https://support.metamask.io"
@@ -61,11 +63,12 @@ export default class InfoTab extends PureComponent {
           >
             {t('supportCenter')}
           </Button>
-        </div>
+        </div> */}
+
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://themedium.io/wallet/"
+            href="https://themedium.io/"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -73,10 +76,11 @@ export default class InfoTab extends PureComponent {
             {t('visitWebSite')}
           </Button>
         </div>
+        
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://metamask.zendesk.com/hc/en-us/requests/new"
+            href="mailto:support.wallet@themedium.io"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"

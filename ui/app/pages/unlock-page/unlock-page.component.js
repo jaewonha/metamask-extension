@@ -178,13 +178,16 @@ export default class UnlockPage extends Component {
             <button className="unlock-page__link text-light-gray" onClick={() => onRestore()}>
               {t('restoreFromSeed')}
             </button>
-            <button
+
+            {/*remove add account*/}
+            {/* <button
               style={{marginTop:"12px"}}
               className="unlock-page__link unlock-page__link--import"
               onClick={() => onImport()}
             >
               {t('importUsingSeed')}
-            </button>
+            </button> */}
+
           </div>
         </div>
       </div>

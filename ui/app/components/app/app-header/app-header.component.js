@@ -73,6 +73,7 @@ export default class AppHeader extends PureComponent {
             'account-menu__icon--disabled': disabled,
           })}
           onClick={() => {
+            console.log('account-menu clicked!:disabled:', disabled)
             if (!disabled) {
               !isAccountMenuOpen &&
                 this.context.metricsEvent({

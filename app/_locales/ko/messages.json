@@ -347,7 +347,7 @@
     "message": "Ropsten 테스트 네트워크에 연결 중"
   },
   "contactUs": {
-    "message": "당사에 문의하세요"
+    "message": "미디움 월렛에 문의하세요"
   },
   "contacts": {
     "message": "연락처"
@@ -2048,7 +2048,7 @@
     "message": "탐색기에서 보기"
   },
   "visitWebSite": {
-    "message": "당사 웹사이트 방문하기"
+    "message": "미디움 웹사이트 방문하기"
   },
   "walletConnectionGuide": {
     "message": "당사의 하드웨어 지갑 연결 가이드"

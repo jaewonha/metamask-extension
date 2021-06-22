@@ -28,7 +28,7 @@ export default function ListItem({
           title
         ) : (
           <button onClick={onClick}>
-            <h2 className="list-item__title">{title}</h2>
+            <h2 onClick={onClick} className="list-item__title">{title}</h2>
           </button>
         )}
         {titleIcon && (

@@ -206,7 +206,7 @@ export default class AccountMenu extends Component {
             />
           </div>
           {this.renderKeyringType(keyring)}
-          {iconAndNameForOpenDomain ? (
+          {false && iconAndNameForOpenDomain ? (
             <div className="account-menu__icon-list">
               <SiteIcon
                 icon={iconAndNameForOpenDomain.icon}
@@ -409,15 +409,16 @@ export default class AccountMenu extends Component {
           }
           text={t('connectHardwareWallet')}
         />
+        */}
         <div className="account-menu__divider" />
-        <AccountMenuItem
+        {/* <AccountMenuItem
           onClick={() => {
             toggleAccountMenu();
             history.push(ABOUT_US_ROUTE);
           }}
           icon={<img src="images/mm-info-icon.svg" alt={t('infoHelp')} />}
           text={t('infoHelp')}
-        />
+        /> */}
         <AccountMenuItem
           onClick={() => {
             toggleAccountMenu();
@@ -437,7 +438,7 @@ export default class AccountMenu extends Component {
             />
           }
           text={t('settings')}
-        /> */}
+        /> 
       </div> 
     );
   }
