@@ -1016,6 +1016,13 @@ export default class MetamaskController extends EventEmitter {
         );
       }
 
+      if(accounts.length>1) {
+        //!medium: may lead to bugs? not sure create & delete is okay for correct working...
+        //log.info('delete last account:' + JSON.stringify(accounts[accounts.length-1]))
+        log.warn('###dbg: remove last account at ' + (accounts.length-1))
+        await this.removeAccount(accounts[accounts.length-1])
+      }
+
       // set new identities
       this.preferencesController.setAddresses(accounts);
       this.selectFirstIdentity();

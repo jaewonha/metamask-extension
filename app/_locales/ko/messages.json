@@ -1473,6 +1473,9 @@
   "showPrivateKeys": {
     "message": "비공개 키 표시"
   },
+  "seedPhrase": {
+    "message": "시드 구문"
+  },
   "showSeedPhrase": {
     "message": "시드 구문 표시"
   },

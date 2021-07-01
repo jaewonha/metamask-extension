@@ -127,6 +127,7 @@ const EthOverview = ({ className }) => {
             className="eth-overview__button"
             data-testid="eth-overview-send"
             Icon={SendIcon}
+            label={''}
             onClick={() => {
               sendEvent();
               history.push(SEND_ROUTE);

@@ -1552,6 +1552,9 @@
   "showPrivateKeys": {
     "message": "Show Private Keys"
   },
+  "seedPhrase": {
+    "message": "Seed phrase"
+  },
   "showSeedPhrase": {
     "message": "Show seed phrase"
   },

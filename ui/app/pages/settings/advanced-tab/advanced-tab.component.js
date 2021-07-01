@@ -476,7 +476,7 @@ export default class AdvancedTab extends PureComponent {
         {this.renderHexDataOptIn()}
         {this.renderShowConversionInTestnets()}
         {this.renderUseNonceOptIn()} */}
-        {this.renderAutoLockTimeLimit()}
+        {/* {this.renderAutoLockTimeLimit()} */}
         {/* {this.renderThreeBoxControl()}
         {this.renderIpfsGatewayControl()} */}
       </div>
