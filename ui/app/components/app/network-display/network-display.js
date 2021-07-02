@@ -53,7 +53,7 @@ export default function NetworkDisplay({
             type={ColorIndicator.TYPES.FILLED}
             iconClassName={
               networkType === NETWORK_TYPE_RPC && indicatorSize !== SIZES.XS
-                ? 'fa fa-question'
+                ? 'fa fa-question_'
                 : undefined
             }
           />
