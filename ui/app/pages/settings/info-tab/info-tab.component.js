@@ -20,7 +20,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://themedium.io/wallet/privacy.html"
+            href="https://mdl-design.s3.ap-northeast-2.amazonaws.com/wallet/medium_weallet_policy_privacy.html"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -31,7 +31,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://themedium.io/wallet/terms.html"
+            href="https://mdl-design.s3.ap-northeast-2.amazonaws.com/wallet/medium_weallet_policy_term.html"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -42,7 +42,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://themedium.io/wallet/attributions.html"
+            href="https://mdl-design.s3.ap-northeast-2.amazonaws.com/wallet/medium_weallet_attributions.html"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
